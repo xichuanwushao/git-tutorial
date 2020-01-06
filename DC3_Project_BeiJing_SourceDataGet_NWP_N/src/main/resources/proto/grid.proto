@@ -1,0 +1,247 @@
+syntax = "proto3";
+
+package grid;
+option java_package = "com.hw.dc3.project.beijing.sourcedataget.nwp.grid.grpc";
+
+message NwpDataCodeRequest {
+    string dataCode = 1; // 模式名字
+}
+
+
+message NwpLatestTimeResponse {
+    int32 status = 1;
+    string msg = 2;
+    repeated string data = 3;
+
+}
+
+message NwpRequestItem {
+    string datacode = 1; // 模式名字
+    string element = 2; // 要素名字
+    string publishtime = 3; // 时间 比如201709190910
+    string validtime = 4; // 时效 比如 036
+    float fcstLevel = 5;
+    float minLat = 6;
+    float maxLat = 7;
+    float minLon = 8;
+    float maxLon = 9;
+}
+
+message NwpRequest {
+    string datacode = 1; // 模式名字
+    string element = 2; // 要素名字
+    string publishtime = 3; // 时间 比如201709190910
+    string validtime = 4; // 时效 比如 036
+    float fcstLevel = 5;
+    float minLat = 6;
+    float maxLat = 7;
+    float minLon = 8;
+    float maxLon = 9;
+}
+message NwpResponse {
+    string datacode = 1; // 模式名字
+    string element = 2; // 要素名字
+    string publishtime = 3; // 时间 比如201709190910
+    string validtime = 4; // 时效 比如 036 所有时效传*
+    float fcstlevel = 5; // 层次
+    float startlon = 6; // 起始经度
+    float startlat = 7; // 起始纬度
+    int32 lonsize = 8; // 经度点的个数
+    int32 latsize = 9; // 纬度点的个数
+    float longap = 10; // 经度间隔
+    float latgap = 11; // 经度间隔
+    repeated float value = 12 [packed = true]; // 数据的一维数组  比如[1.0, 2.0, 3.0, 4.0]
+}
+
+message GetNafpTimeSerialByPointRequest {
+    string dataCode = 1; //指定格点数据的种类，字符串类型
+    string elements = 2; //参数列表
+    string time = 3; //发布时间
+    string minvalidtime = 4; //查询时效范围中的最小值，三个字节长度
+    string maxvalidtime = 5; //查询时效范围中的最大值，三个字节长度
+    string fcstLevel = 6;
+    string latlons = 7;
+}
+message GetNafpTimeSerialByPointResponse {
+    int32 status = 1;
+    string msg = 2;
+    repeated GetNafpTimeSerialByPointResponseItem data = 3; // NwpResponseItem的数组
+}
+message GetNafpTimeSerialByPointResponseItem {
+    int32 rowCount = 1;
+    int32 colCount = 2;
+    string requestElems = 3;
+    string requestParams = 4;
+    string requestTime = 5;
+    string responseTime = 6;
+    int32 takeTime = 7;
+    int32 returnCode = 8;
+    string returnMessage = 9;
+    repeated DataArr ds = 10;
+}
+message DataArr {
+    repeated string row = 1;
+}
+
+//获取指定数据的详细信息，包括所含要素、层次、时效等
+message GetNWPAvaibleInfoResponse {
+    int32 status = 1;
+    string msg = 2;
+    repeated AvalibleResponse data = 3;
+}
+message AvalibleResponse {
+    repeated AvalibleResponseRow row = 1;
+
+}
+message AvalibleResponseRow {
+    string feature = 1;
+    repeated string validtimes = 2;
+    repeated string pubts = 3;
+    repeated int32 levels = 4;
+}
+
+message GetNafpGridRequest {
+    string dataCode = 1;
+    string elements = 2;
+    string time = 3;
+    string validtime = 4;
+    string fcstLevel = 5;
+
+}
+
+message GetNafpGridInRectRequest{
+    string dataCode = 1;
+    string elements = 2;
+    string time = 3;
+    string validtime = 6;
+    string fcstLevel = 9;
+    string minLon = 10;
+    string maxLon = 11;
+    string minLat = 12;
+    string maxLat = 13;
+}
+
+message GetNafpGridResponse {
+    int32 status = 1;
+    string msg = 2;
+    int32 took = 3;
+    NafpGridData data = 4;
+}
+message NafpGridData {
+    float startLat = 1;
+    float startLon = 2;
+    float endLat = 3;
+    float endLon = 4;
+    int32 latCount = 5;
+    int32 lonCount = 6;
+    float latStep = 7;
+    float lonStep = 8;
+    string requestParams = 9;
+    string requestTime = 10;
+    string responseTime = 11;
+    int32 takeTime = 12;
+    int32 errorCode = 13;
+    string errorMessage = 14;
+    repeated NafpGridDS DS = 15;
+
+}
+message NafpGridDS {
+    repeated string row = 1;
+}
+
+message GetNafpGridJsonRequest {
+    string dataCode = 1;
+    string elements = 2;
+    string times = 3;
+    string validtime = 4;
+    string fcstLevel = 5;
+    string format = 6;
+    string showtype = 7;
+    string clevels = 8;
+    string ccolors = 9;
+    string smooth = 10;
+
+}
+
+
+message GetProfileImageRequest {
+    string dataCode = 1;
+    string elements = 2;
+    string time = 3;
+    string minvalidtime = 4;
+    string maxvalidtime = 5;
+    string validtime = 6;
+    string fcstLevel = 7;
+
+    string format = 8;
+    string clevels = 10;
+    string ccolors = 11;
+    string points = 12;
+    string aggregation = 13;
+
+}
+message GetTimeSerialImageRequest {
+    string dataCode = 1;
+    string elements = 2;
+    string time = 3;
+    string minvalidtime = 4;
+    string maxvalidtime = 5;
+    string validtime = 6;
+    string fcstLevel = 7;
+
+    string format = 8;
+    string showtype = 9;
+    string clevels = 10;
+    string ccolors = 11;
+    string pointLon = 12;
+    string pointLat = 13;
+
+    string aggregation = 14;
+
+}
+message GetNafpGridInRectJsonRequest{
+    string dataCode = 1;
+    string elements = 2;
+    string time = 3;
+    string minvalidtime = 4;
+    string maxvalidtime = 5;
+    string validtime = 6;
+    string fcstLevel = 7;
+
+    string clevels = 8;
+    string ccolors = 9;
+    string pointLon = 10;
+    string pointLat = 11;
+
+    string aggregation = 12;
+}
+
+message SimpleResponse {
+    int32 status = 1;
+    string message = 2;
+    string data = 3;
+}
+service Nwp {
+    // 请求最新时间的方法
+    rpc GetNwpDataLatestTime (NwpDataCodeRequest) returns (NwpLatestTimeResponse) {}
+    //    获取指定数据的详细信息，包括所含要素、层次、时效等
+    rpc GetNWPAvaibleInfo (NwpDataCodeRequest) returns (GetNWPAvaibleInfoResponse) {}
+    //    获取指定要素的格点场
+    rpc GetNafpGrid (GetNafpGridRequest) returns (GetNafpGridResponse) {}
+
+    rpc GetNafpGridInRect (GetNafpGridInRectRequest) returns (GetNafpGridResponse) {}
+
+    rpc GetNafpTimeSerialByPoint (GetNafpTimeSerialByPointRequest) returns (GetNafpTimeSerialByPointResponse) {} //获取指定多个点的时间序列图
+
+    rpc GetNafpGridJson (GetNafpGridJsonRequest) returns (SimpleResponse) {}
+
+
+    rpc GetProfileImage (GetProfileImageRequest) returns (SimpleResponse) {}
+
+    rpc GetTimeSerialImage (GetTimeSerialImageRequest) returns (SimpleResponse) {}
+
+    rpc GetNafpGridInRectJson (GetNafpGridInRectJsonRequest) returns (SimpleResponse) {}
+
+
+}
+

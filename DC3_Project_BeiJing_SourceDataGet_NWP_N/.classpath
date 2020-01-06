@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/grpclib/music-grpc-client-20190906.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/asm-5.0.3.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/asm-analysis-5.0.3.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/asm-commons-5.0.3.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/asm-tree-5.0.3.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/asm-util-5.0.3.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/aspose-words-18.6-jdk16-crack.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/cassandra-driver-core-3.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/commons-cli-1.3.1.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/commons-compress-1.12.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/commons-configuration-1.6.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/commons-net-3.6.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/commons-pool2-2.4.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/fastjson-1.2.58.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/gbase-connector-java-8.8.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/hadoop-auth-2.6.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/hadoop-common-2.6.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/hadoop-hdfs-2.6.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/hadoop-mapreduce-client-app-2.6.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/hadoop-mapreduce-client-common-2.6.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/hadoop-mapreduce-client-core-2.6.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/hadoop-mapreduce-client-jobclient-2.6.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/hadoop-mapreduce-client-shuffle-2.6.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/hadoop-yarn-api-2.6.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/hadoop-yarn-client-2.6.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/hadoop-yarn-common-2.6.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/hbase-client-1.1.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/hbase-common-1.1.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/hbase-protocol-1.1.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/htrace-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/htrace-core-3.1.0-incubating.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/jackson-core-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/jackson-mapper-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/Jama-1.0.3.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/jaxen-1.1-beta-6.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/jcifs-1.3.18.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/jedis.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/jffi-1.2.10.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/jffi-1.2.10-native.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/jnr-constants-0.9.0.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/jnr-ffi-2.0.7.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/jnr-posix-3.0.27.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/jnr-x86asm-1.0.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/kafka_2.11-2.0.0.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/kafka-clients-2.0.0.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/kafka-log4j-appender-2.0.0.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/kafka-streams-2.0.0.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/kafka-streams-examples-2.0.0.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/kafka-streams-scala_2.11-2.0.0.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/kafka-streams-test-utils-2.0.0.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/kafka-tools-2.0.0.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/metrics-core-3.2.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/mysql-connector-java-5.1.45-bin.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/netcdfAll-4.6.6.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/netty-buffer-4.0.47.Final.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/netty-codec-4.0.47.Final.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/netty-common-4.0.47.Final.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/netty-handler-4.0.47.Final.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/netty-transport-4.0.47.Final.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/ojdbc7.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/scala-compiler-2.11.8.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/scala-library-2.11.8.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/scalap-2.11.8.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/scala-parser-combinators_2.11-1.0.4.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/scala-reflect-2.11.8.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/scala-xml_2.11-1.0.5.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/servlet-api.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/sigar.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/slf4j-log4j12-1.7.5.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-catalyst_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-core_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-graphx_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-hive_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-hive-thriftserver_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-kubernetes_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-kvstore_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-launcher_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-mesos_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-mllib_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-mllib-local_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-network-common_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-network-shuffle_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-repl_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-sketch_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-sql_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-streaming_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-tags_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-unsafe_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/spark-yarn_2.11-2.3.2.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/swt.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/Other/zookeeper-3.4.8.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/DC3_Project_BeiJing_SourceDataGet_PublicCode.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/DP3_DataParser_PublicCode-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/DP3_Project_NorthwestAviation_GisChartPublicCode.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/DP3_Project_NorthwestAviation_PublicCode-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/DS3_Client_GRPC_DB_Redis-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/DS3_PublicCode-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/DS3_Services_DB_Cassandra-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/DS3_Services_DB_Redis-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/DS3_Services_Project_DBManage-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/DS3_Services_Project_NorthwestAviation-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/DS3_Services_Test-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/DS3_Services_Weather_RAD-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/DS3_Services_Weather_SAT-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/DS3_Services_Weather_SWP-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWCDP3.Grpc-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWCDP3.PublicCode-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWCDP3.PureLog-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWCDP3.Weather-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWCommons.DB-1.0.9.1691.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWCommons.GIS-1.0.7.1657.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWCommons.Lang-1.0.12.1587.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWCommons.Net-1.0.2.1268.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWCommonUtil-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWHadoop.Cassandra-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWHadoop.Hadoop-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWHadoop.Hbase-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWHadoop.Kafka-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWWeather.Common-1.1.11.1480.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWWeather.NWP-1.1.51.1667.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWWeather.RAD-1.1.1618.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWWeather.SAT-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWWeather.SWP-1.1.1.1435.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWWeather.TYP-Beta.jar"/>
+	<classpathentry kind="lib" path="I:/福建华网/Lib/lib2/HWWeather.ZDZ-1.0.8.1651.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_152"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
