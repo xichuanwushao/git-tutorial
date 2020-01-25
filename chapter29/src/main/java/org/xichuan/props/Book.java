@@ -5,7 +5,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 @Component
-@PropertySource(value = {"classpath:book1.properties","classpath:book2.properties"}, ignoreResourceNotFound=true)
+@PropertySource(value = {"classpath:book1.properties", "classpath:book2.properties"}, ignoreResourceNotFound = true)
 @ConfigurationProperties("mybook")
 public class Book {
     private Integer id;

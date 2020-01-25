@@ -9,7 +9,7 @@ import javax.servlet.http.HttpSession;
 //http://localhost:8081/chapter02/hello
 public class HelloController {
     @GetMapping("/hello")
-    public String hello(){
+    public String hello() {
         return "hello spring boot!";
     }
 
@@ -20,8 +20,8 @@ public class HelloController {
 
     @GetMapping("/hello2")
     public String hello(HttpSession session) {
-       int maxInactiveInterval = session.getMaxInactiveInterval();
-       return String.valueOf(maxInactiveInterval);
+        int maxInactiveInterval = session.getMaxInactiveInterval();
+        return String.valueOf(maxInactiveInterval);
         //return "hello https!";
     }
 }

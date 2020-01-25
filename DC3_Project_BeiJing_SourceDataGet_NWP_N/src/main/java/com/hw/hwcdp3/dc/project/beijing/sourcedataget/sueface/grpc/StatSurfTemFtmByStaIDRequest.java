@@ -6,1424 +6,1513 @@ package com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc;
 /**
  * Protobuf type {@code surfaceDataSelect.StatSurfTemFtmByStaIDRequest}
  */
-public  final class StatSurfTemFtmByStaIDRequest extends
-    com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:surfaceDataSelect.StatSurfTemFtmByStaIDRequest)
-    StatSurfTemFtmByStaIDRequestOrBuilder {
-private static final long serialVersionUID = 0L;
-  // Use StatSurfTemFtmByStaIDRequest.newBuilder() to construct.
-  private StatSurfTemFtmByStaIDRequest(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
-    super(builder);
-  }
-  private StatSurfTemFtmByStaIDRequest() {
-    elements_ = "";
-    statEleValueRanges_ = "";
-    limitCnt_ = "";
-    orderBy_ = "";
-    timeRange_ = "";
-    staIds_ = "";
-    staLevels_ = "";
-    dataCode_ = "";
-  }
+public final class StatSurfTemFtmByStaIDRequest extends
+        com.google.protobuf.GeneratedMessageV3 implements
+        // @@protoc_insertion_point(message_implements:surfaceDataSelect.StatSurfTemFtmByStaIDRequest)
+        StatSurfTemFtmByStaIDRequestOrBuilder {
+    private static final long serialVersionUID = 0L;
 
-  @java.lang.Override
-  public final com.google.protobuf.UnknownFieldSet
-  getUnknownFields() {
-    return this.unknownFields;
-  }
-  private StatSurfTemFtmByStaIDRequest(
-      com.google.protobuf.CodedInputStream input,
-      com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-      throws com.google.protobuf.InvalidProtocolBufferException {
-    this();
-    if (extensionRegistry == null) {
-      throw new java.lang.NullPointerException();
+    // Use StatSurfTemFtmByStaIDRequest.newBuilder() to construct.
+    private StatSurfTemFtmByStaIDRequest(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+        super(builder);
     }
-    int mutable_bitField0_ = 0;
-    com.google.protobuf.UnknownFieldSet.Builder unknownFields =
-        com.google.protobuf.UnknownFieldSet.newBuilder();
-    try {
-      boolean done = false;
-      while (!done) {
-        int tag = input.readTag();
-        switch (tag) {
-          case 0:
-            done = true;
-            break;
-          case 10: {
-            java.lang.String s = input.readStringRequireUtf8();
 
-            elements_ = s;
-            break;
-          }
-          case 18: {
-            java.lang.String s = input.readStringRequireUtf8();
+    private StatSurfTemFtmByStaIDRequest() {
+        elements_ = "";
+        statEleValueRanges_ = "";
+        limitCnt_ = "";
+        orderBy_ = "";
+        timeRange_ = "";
+        staIds_ = "";
+        staLevels_ = "";
+        dataCode_ = "";
+    }
 
-            statEleValueRanges_ = s;
-            break;
-          }
-          case 26: {
-            java.lang.String s = input.readStringRequireUtf8();
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+    getUnknownFields() {
+        return this.unknownFields;
+    }
 
-            limitCnt_ = s;
-            break;
-          }
-          case 34: {
-            java.lang.String s = input.readStringRequireUtf8();
-
-            orderBy_ = s;
-            break;
-          }
-          case 42: {
-            java.lang.String s = input.readStringRequireUtf8();
-
-            timeRange_ = s;
-            break;
-          }
-          case 50: {
-            java.lang.String s = input.readStringRequireUtf8();
-
-            staIds_ = s;
-            break;
-          }
-          case 58: {
-            java.lang.String s = input.readStringRequireUtf8();
-
-            staLevels_ = s;
-            break;
-          }
-          case 66: {
-            java.lang.String s = input.readStringRequireUtf8();
-
-            dataCode_ = s;
-            break;
-          }
-          default: {
-            if (!parseUnknownField(
-                input, unknownFields, extensionRegistry, tag)) {
-              done = true;
-            }
-            break;
-          }
+    private StatSurfTemFtmByStaIDRequest(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+        this();
+        if (extensionRegistry == null) {
+            throw new java.lang.NullPointerException();
         }
-      }
-    } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-      throw e.setUnfinishedMessage(this);
-    } catch (java.io.IOException e) {
-      throw new com.google.protobuf.InvalidProtocolBufferException(
-          e).setUnfinishedMessage(this);
-    } finally {
-      this.unknownFields = unknownFields.build();
-      makeExtensionsImmutable();
-    }
-  }
-  public static final com.google.protobuf.Descriptors.Descriptor
-      getDescriptor() {
-    return com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.SelectProto.internal_static_surfaceDataSelect_StatSurfTemFtmByStaIDRequest_descriptor;
-  }
+        int mutable_bitField0_ = 0;
+        com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+                com.google.protobuf.UnknownFieldSet.newBuilder();
+        try {
+            boolean done = false;
+            while (!done) {
+                int tag = input.readTag();
+                switch (tag) {
+                    case 0:
+                        done = true;
+                        break;
+                    case 10: {
+                        java.lang.String s = input.readStringRequireUtf8();
 
-  @java.lang.Override
-  protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internalGetFieldAccessorTable() {
-    return com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.SelectProto.internal_static_surfaceDataSelect_StatSurfTemFtmByStaIDRequest_fieldAccessorTable
-        .ensureFieldAccessorsInitialized(
-            com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest.class, com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest.Builder.class);
-  }
+                        elements_ = s;
+                        break;
+                    }
+                    case 18: {
+                        java.lang.String s = input.readStringRequireUtf8();
 
-  public static final int ELEMENTS_FIELD_NUMBER = 1;
-  private volatile java.lang.Object elements_;
-  /**
-   * <code>string elements = 1;</code>
-   */
-  public java.lang.String getElements() {
-    java.lang.Object ref = elements_;
-    if (ref instanceof java.lang.String) {
-      return (java.lang.String) ref;
-    } else {
-      com.google.protobuf.ByteString bs = 
-          (com.google.protobuf.ByteString) ref;
-      java.lang.String s = bs.toStringUtf8();
-      elements_ = s;
-      return s;
-    }
-  }
-  /**
-   * <code>string elements = 1;</code>
-   */
-  public com.google.protobuf.ByteString
-      getElementsBytes() {
-    java.lang.Object ref = elements_;
-    if (ref instanceof java.lang.String) {
-      com.google.protobuf.ByteString b = 
-          com.google.protobuf.ByteString.copyFromUtf8(
-              (java.lang.String) ref);
-      elements_ = b;
-      return b;
-    } else {
-      return (com.google.protobuf.ByteString) ref;
-    }
-  }
+                        statEleValueRanges_ = s;
+                        break;
+                    }
+                    case 26: {
+                        java.lang.String s = input.readStringRequireUtf8();
 
-  public static final int STATELEVALUERANGES_FIELD_NUMBER = 2;
-  private volatile java.lang.Object statEleValueRanges_;
-  /**
-   * <code>string statEleValueRanges = 2;</code>
-   */
-  public java.lang.String getStatEleValueRanges() {
-    java.lang.Object ref = statEleValueRanges_;
-    if (ref instanceof java.lang.String) {
-      return (java.lang.String) ref;
-    } else {
-      com.google.protobuf.ByteString bs = 
-          (com.google.protobuf.ByteString) ref;
-      java.lang.String s = bs.toStringUtf8();
-      statEleValueRanges_ = s;
-      return s;
-    }
-  }
-  /**
-   * <code>string statEleValueRanges = 2;</code>
-   */
-  public com.google.protobuf.ByteString
-      getStatEleValueRangesBytes() {
-    java.lang.Object ref = statEleValueRanges_;
-    if (ref instanceof java.lang.String) {
-      com.google.protobuf.ByteString b = 
-          com.google.protobuf.ByteString.copyFromUtf8(
-              (java.lang.String) ref);
-      statEleValueRanges_ = b;
-      return b;
-    } else {
-      return (com.google.protobuf.ByteString) ref;
-    }
-  }
+                        limitCnt_ = s;
+                        break;
+                    }
+                    case 34: {
+                        java.lang.String s = input.readStringRequireUtf8();
 
-  public static final int LIMITCNT_FIELD_NUMBER = 3;
-  private volatile java.lang.Object limitCnt_;
-  /**
-   * <code>string limitCnt = 3;</code>
-   */
-  public java.lang.String getLimitCnt() {
-    java.lang.Object ref = limitCnt_;
-    if (ref instanceof java.lang.String) {
-      return (java.lang.String) ref;
-    } else {
-      com.google.protobuf.ByteString bs = 
-          (com.google.protobuf.ByteString) ref;
-      java.lang.String s = bs.toStringUtf8();
-      limitCnt_ = s;
-      return s;
-    }
-  }
-  /**
-   * <code>string limitCnt = 3;</code>
-   */
-  public com.google.protobuf.ByteString
-      getLimitCntBytes() {
-    java.lang.Object ref = limitCnt_;
-    if (ref instanceof java.lang.String) {
-      com.google.protobuf.ByteString b = 
-          com.google.protobuf.ByteString.copyFromUtf8(
-              (java.lang.String) ref);
-      limitCnt_ = b;
-      return b;
-    } else {
-      return (com.google.protobuf.ByteString) ref;
-    }
-  }
+                        orderBy_ = s;
+                        break;
+                    }
+                    case 42: {
+                        java.lang.String s = input.readStringRequireUtf8();
 
-  public static final int ORDERBY_FIELD_NUMBER = 4;
-  private volatile java.lang.Object orderBy_;
-  /**
-   * <code>string orderBy = 4;</code>
-   */
-  public java.lang.String getOrderBy() {
-    java.lang.Object ref = orderBy_;
-    if (ref instanceof java.lang.String) {
-      return (java.lang.String) ref;
-    } else {
-      com.google.protobuf.ByteString bs = 
-          (com.google.protobuf.ByteString) ref;
-      java.lang.String s = bs.toStringUtf8();
-      orderBy_ = s;
-      return s;
-    }
-  }
-  /**
-   * <code>string orderBy = 4;</code>
-   */
-  public com.google.protobuf.ByteString
-      getOrderByBytes() {
-    java.lang.Object ref = orderBy_;
-    if (ref instanceof java.lang.String) {
-      com.google.protobuf.ByteString b = 
-          com.google.protobuf.ByteString.copyFromUtf8(
-              (java.lang.String) ref);
-      orderBy_ = b;
-      return b;
-    } else {
-      return (com.google.protobuf.ByteString) ref;
-    }
-  }
+                        timeRange_ = s;
+                        break;
+                    }
+                    case 50: {
+                        java.lang.String s = input.readStringRequireUtf8();
 
-  public static final int TIMERANGE_FIELD_NUMBER = 5;
-  private volatile java.lang.Object timeRange_;
-  /**
-   * <code>string timeRange = 5;</code>
-   */
-  public java.lang.String getTimeRange() {
-    java.lang.Object ref = timeRange_;
-    if (ref instanceof java.lang.String) {
-      return (java.lang.String) ref;
-    } else {
-      com.google.protobuf.ByteString bs = 
-          (com.google.protobuf.ByteString) ref;
-      java.lang.String s = bs.toStringUtf8();
-      timeRange_ = s;
-      return s;
-    }
-  }
-  /**
-   * <code>string timeRange = 5;</code>
-   */
-  public com.google.protobuf.ByteString
-      getTimeRangeBytes() {
-    java.lang.Object ref = timeRange_;
-    if (ref instanceof java.lang.String) {
-      com.google.protobuf.ByteString b = 
-          com.google.protobuf.ByteString.copyFromUtf8(
-              (java.lang.String) ref);
-      timeRange_ = b;
-      return b;
-    } else {
-      return (com.google.protobuf.ByteString) ref;
-    }
-  }
+                        staIds_ = s;
+                        break;
+                    }
+                    case 58: {
+                        java.lang.String s = input.readStringRequireUtf8();
 
-  public static final int STAIDS_FIELD_NUMBER = 6;
-  private volatile java.lang.Object staIds_;
-  /**
-   * <code>string staIds = 6;</code>
-   */
-  public java.lang.String getStaIds() {
-    java.lang.Object ref = staIds_;
-    if (ref instanceof java.lang.String) {
-      return (java.lang.String) ref;
-    } else {
-      com.google.protobuf.ByteString bs = 
-          (com.google.protobuf.ByteString) ref;
-      java.lang.String s = bs.toStringUtf8();
-      staIds_ = s;
-      return s;
-    }
-  }
-  /**
-   * <code>string staIds = 6;</code>
-   */
-  public com.google.protobuf.ByteString
-      getStaIdsBytes() {
-    java.lang.Object ref = staIds_;
-    if (ref instanceof java.lang.String) {
-      com.google.protobuf.ByteString b = 
-          com.google.protobuf.ByteString.copyFromUtf8(
-              (java.lang.String) ref);
-      staIds_ = b;
-      return b;
-    } else {
-      return (com.google.protobuf.ByteString) ref;
-    }
-  }
+                        staLevels_ = s;
+                        break;
+                    }
+                    case 66: {
+                        java.lang.String s = input.readStringRequireUtf8();
 
-  public static final int STALEVELS_FIELD_NUMBER = 7;
-  private volatile java.lang.Object staLevels_;
-  /**
-   * <code>string staLevels = 7;</code>
-   */
-  public java.lang.String getStaLevels() {
-    java.lang.Object ref = staLevels_;
-    if (ref instanceof java.lang.String) {
-      return (java.lang.String) ref;
-    } else {
-      com.google.protobuf.ByteString bs = 
-          (com.google.protobuf.ByteString) ref;
-      java.lang.String s = bs.toStringUtf8();
-      staLevels_ = s;
-      return s;
+                        dataCode_ = s;
+                        break;
+                    }
+                    default: {
+                        if (!parseUnknownField(
+                                input, unknownFields, extensionRegistry, tag)) {
+                            done = true;
+                        }
+                        break;
+                    }
+                }
+            }
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+            throw e.setUnfinishedMessage(this);
+        } catch (java.io.IOException e) {
+            throw new com.google.protobuf.InvalidProtocolBufferException(
+                    e).setUnfinishedMessage(this);
+        } finally {
+            this.unknownFields = unknownFields.build();
+            makeExtensionsImmutable();
+        }
     }
-  }
-  /**
-   * <code>string staLevels = 7;</code>
-   */
-  public com.google.protobuf.ByteString
-      getStaLevelsBytes() {
-    java.lang.Object ref = staLevels_;
-    if (ref instanceof java.lang.String) {
-      com.google.protobuf.ByteString b = 
-          com.google.protobuf.ByteString.copyFromUtf8(
-              (java.lang.String) ref);
-      staLevels_ = b;
-      return b;
-    } else {
-      return (com.google.protobuf.ByteString) ref;
-    }
-  }
 
-  public static final int DATACODE_FIELD_NUMBER = 8;
-  private volatile java.lang.Object dataCode_;
-  /**
-   * <code>string dataCode = 8;</code>
-   */
-  public java.lang.String getDataCode() {
-    java.lang.Object ref = dataCode_;
-    if (ref instanceof java.lang.String) {
-      return (java.lang.String) ref;
-    } else {
-      com.google.protobuf.ByteString bs = 
-          (com.google.protobuf.ByteString) ref;
-      java.lang.String s = bs.toStringUtf8();
-      dataCode_ = s;
-      return s;
-    }
-  }
-  /**
-   * <code>string dataCode = 8;</code>
-   */
-  public com.google.protobuf.ByteString
-      getDataCodeBytes() {
-    java.lang.Object ref = dataCode_;
-    if (ref instanceof java.lang.String) {
-      com.google.protobuf.ByteString b = 
-          com.google.protobuf.ByteString.copyFromUtf8(
-              (java.lang.String) ref);
-      dataCode_ = b;
-      return b;
-    } else {
-      return (com.google.protobuf.ByteString) ref;
-    }
-  }
-
-  private byte memoizedIsInitialized = -1;
-  @java.lang.Override
-  public final boolean isInitialized() {
-    byte isInitialized = memoizedIsInitialized;
-    if (isInitialized == 1) return true;
-    if (isInitialized == 0) return false;
-
-    memoizedIsInitialized = 1;
-    return true;
-  }
-
-  @java.lang.Override
-  public void writeTo(com.google.protobuf.CodedOutputStream output)
-                      throws java.io.IOException {
-    if (!getElementsBytes().isEmpty()) {
-      com.google.protobuf.GeneratedMessageV3.writeString(output, 1, elements_);
-    }
-    if (!getStatEleValueRangesBytes().isEmpty()) {
-      com.google.protobuf.GeneratedMessageV3.writeString(output, 2, statEleValueRanges_);
-    }
-    if (!getLimitCntBytes().isEmpty()) {
-      com.google.protobuf.GeneratedMessageV3.writeString(output, 3, limitCnt_);
-    }
-    if (!getOrderByBytes().isEmpty()) {
-      com.google.protobuf.GeneratedMessageV3.writeString(output, 4, orderBy_);
-    }
-    if (!getTimeRangeBytes().isEmpty()) {
-      com.google.protobuf.GeneratedMessageV3.writeString(output, 5, timeRange_);
-    }
-    if (!getStaIdsBytes().isEmpty()) {
-      com.google.protobuf.GeneratedMessageV3.writeString(output, 6, staIds_);
-    }
-    if (!getStaLevelsBytes().isEmpty()) {
-      com.google.protobuf.GeneratedMessageV3.writeString(output, 7, staLevels_);
-    }
-    if (!getDataCodeBytes().isEmpty()) {
-      com.google.protobuf.GeneratedMessageV3.writeString(output, 8, dataCode_);
-    }
-    unknownFields.writeTo(output);
-  }
-
-  @java.lang.Override
-  public int getSerializedSize() {
-    int size = memoizedSize;
-    if (size != -1) return size;
-
-    size = 0;
-    if (!getElementsBytes().isEmpty()) {
-      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, elements_);
-    }
-    if (!getStatEleValueRangesBytes().isEmpty()) {
-      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, statEleValueRanges_);
-    }
-    if (!getLimitCntBytes().isEmpty()) {
-      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, limitCnt_);
-    }
-    if (!getOrderByBytes().isEmpty()) {
-      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, orderBy_);
-    }
-    if (!getTimeRangeBytes().isEmpty()) {
-      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(5, timeRange_);
-    }
-    if (!getStaIdsBytes().isEmpty()) {
-      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(6, staIds_);
-    }
-    if (!getStaLevelsBytes().isEmpty()) {
-      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(7, staLevels_);
-    }
-    if (!getDataCodeBytes().isEmpty()) {
-      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(8, dataCode_);
-    }
-    size += unknownFields.getSerializedSize();
-    memoizedSize = size;
-    return size;
-  }
-
-  @java.lang.Override
-  public boolean equals(final java.lang.Object obj) {
-    if (obj == this) {
-     return true;
-    }
-    if (!(obj instanceof com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest)) {
-      return super.equals(obj);
-    }
-    com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest other = (com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest) obj;
-
-    if (!getElements()
-        .equals(other.getElements())) return false;
-    if (!getStatEleValueRanges()
-        .equals(other.getStatEleValueRanges())) return false;
-    if (!getLimitCnt()
-        .equals(other.getLimitCnt())) return false;
-    if (!getOrderBy()
-        .equals(other.getOrderBy())) return false;
-    if (!getTimeRange()
-        .equals(other.getTimeRange())) return false;
-    if (!getStaIds()
-        .equals(other.getStaIds())) return false;
-    if (!getStaLevels()
-        .equals(other.getStaLevels())) return false;
-    if (!getDataCode()
-        .equals(other.getDataCode())) return false;
-    if (!unknownFields.equals(other.unknownFields)) return false;
-    return true;
-  }
-
-  @java.lang.Override
-  public int hashCode() {
-    if (memoizedHashCode != 0) {
-      return memoizedHashCode;
-    }
-    int hash = 41;
-    hash = (19 * hash) + getDescriptor().hashCode();
-    hash = (37 * hash) + ELEMENTS_FIELD_NUMBER;
-    hash = (53 * hash) + getElements().hashCode();
-    hash = (37 * hash) + STATELEVALUERANGES_FIELD_NUMBER;
-    hash = (53 * hash) + getStatEleValueRanges().hashCode();
-    hash = (37 * hash) + LIMITCNT_FIELD_NUMBER;
-    hash = (53 * hash) + getLimitCnt().hashCode();
-    hash = (37 * hash) + ORDERBY_FIELD_NUMBER;
-    hash = (53 * hash) + getOrderBy().hashCode();
-    hash = (37 * hash) + TIMERANGE_FIELD_NUMBER;
-    hash = (53 * hash) + getTimeRange().hashCode();
-    hash = (37 * hash) + STAIDS_FIELD_NUMBER;
-    hash = (53 * hash) + getStaIds().hashCode();
-    hash = (37 * hash) + STALEVELS_FIELD_NUMBER;
-    hash = (53 * hash) + getStaLevels().hashCode();
-    hash = (37 * hash) + DATACODE_FIELD_NUMBER;
-    hash = (53 * hash) + getDataCode().hashCode();
-    hash = (29 * hash) + unknownFields.hashCode();
-    memoizedHashCode = hash;
-    return hash;
-  }
-
-  public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(
-      java.nio.ByteBuffer data)
-      throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data);
-  }
-  public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(
-      java.nio.ByteBuffer data,
-      com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-      throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data, extensionRegistry);
-  }
-  public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(
-      com.google.protobuf.ByteString data)
-      throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data);
-  }
-  public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(
-      com.google.protobuf.ByteString data,
-      com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-      throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data, extensionRegistry);
-  }
-  public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(byte[] data)
-      throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data);
-  }
-  public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(
-      byte[] data,
-      com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-      throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data, extensionRegistry);
-  }
-  public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(java.io.InputStream input)
-      throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseWithIOException(PARSER, input);
-  }
-  public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(
-      java.io.InputStream input,
-      com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-      throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseWithIOException(PARSER, input, extensionRegistry);
-  }
-  public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseDelimitedFrom(java.io.InputStream input)
-      throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseDelimitedWithIOException(PARSER, input);
-  }
-  public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseDelimitedFrom(
-      java.io.InputStream input,
-      com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-      throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
-  }
-  public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(
-      com.google.protobuf.CodedInputStream input)
-      throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseWithIOException(PARSER, input);
-  }
-  public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(
-      com.google.protobuf.CodedInputStream input,
-      com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-      throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseWithIOException(PARSER, input, extensionRegistry);
-  }
-
-  @java.lang.Override
-  public Builder newBuilderForType() { return newBuilder(); }
-  public static Builder newBuilder() {
-    return DEFAULT_INSTANCE.toBuilder();
-  }
-  public static Builder newBuilder(com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest prototype) {
-    return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
-  }
-  @java.lang.Override
-  public Builder toBuilder() {
-    return this == DEFAULT_INSTANCE
-        ? new Builder() : new Builder().mergeFrom(this);
-  }
-
-  @java.lang.Override
-  protected Builder newBuilderForType(
-      com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-    Builder builder = new Builder(parent);
-    return builder;
-  }
-  /**
-   * Protobuf type {@code surfaceDataSelect.StatSurfTemFtmByStaIDRequest}
-   */
-  public static final class Builder extends
-      com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:surfaceDataSelect.StatSurfTemFtmByStaIDRequest)
-      com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
-        getDescriptor() {
-      return com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.SelectProto.internal_static_surfaceDataSelect_StatSurfTemFtmByStaIDRequest_descriptor;
+    getDescriptor() {
+        return com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.SelectProto.internal_static_surfaceDataSelect_StatSurfTemFtmByStaIDRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-        internalGetFieldAccessorTable() {
-      return com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.SelectProto.internal_static_surfaceDataSelect_StatSurfTemFtmByStaIDRequest_fieldAccessorTable
-          .ensureFieldAccessorsInitialized(
-              com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest.class, com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest.Builder.class);
+    internalGetFieldAccessorTable() {
+        return com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.SelectProto.internal_static_surfaceDataSelect_StatSurfTemFtmByStaIDRequest_fieldAccessorTable
+                .ensureFieldAccessorsInitialized(
+                        com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest.class, com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest.Builder.class);
     }
 
-    // Construct using com.rihang.surface.grpc.surfaceSelect.StatSurfTemFtmByStaIDRequest.newBuilder()
-    private Builder() {
-      maybeForceBuilderInitialization();
-    }
+    public static final int ELEMENTS_FIELD_NUMBER = 1;
+    private volatile java.lang.Object elements_;
 
-    private Builder(
-        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-      super(parent);
-      maybeForceBuilderInitialization();
-    }
-    private void maybeForceBuilderInitialization() {
-      if (com.google.protobuf.GeneratedMessageV3
-              .alwaysUseFieldBuilders) {
-      }
-    }
-    @java.lang.Override
-    public Builder clear() {
-      super.clear();
-      elements_ = "";
-
-      statEleValueRanges_ = "";
-
-      limitCnt_ = "";
-
-      orderBy_ = "";
-
-      timeRange_ = "";
-
-      staIds_ = "";
-
-      staLevels_ = "";
-
-      dataCode_ = "";
-
-      return this;
-    }
-
-    @java.lang.Override
-    public com.google.protobuf.Descriptors.Descriptor
-        getDescriptorForType() {
-      return com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.SelectProto.internal_static_surfaceDataSelect_StatSurfTemFtmByStaIDRequest_descriptor;
-    }
-
-    @java.lang.Override
-    public com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest getDefaultInstanceForType() {
-      return com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest.getDefaultInstance();
-    }
-
-    @java.lang.Override
-    public com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest build() {
-      com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest result = buildPartial();
-      if (!result.isInitialized()) {
-        throw newUninitializedMessageException(result);
-      }
-      return result;
-    }
-
-    @java.lang.Override
-    public com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest buildPartial() {
-      com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest result = new com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest(this);
-      result.elements_ = elements_;
-      result.statEleValueRanges_ = statEleValueRanges_;
-      result.limitCnt_ = limitCnt_;
-      result.orderBy_ = orderBy_;
-      result.timeRange_ = timeRange_;
-      result.staIds_ = staIds_;
-      result.staLevels_ = staLevels_;
-      result.dataCode_ = dataCode_;
-      onBuilt();
-      return result;
-    }
-
-    @java.lang.Override
-    public Builder clone() {
-      return super.clone();
-    }
-    @java.lang.Override
-    public Builder setField(
-        com.google.protobuf.Descriptors.FieldDescriptor field,
-        java.lang.Object value) {
-      return super.setField(field, value);
-    }
-    @java.lang.Override
-    public Builder clearField(
-        com.google.protobuf.Descriptors.FieldDescriptor field) {
-      return super.clearField(field);
-    }
-    @java.lang.Override
-    public Builder clearOneof(
-        com.google.protobuf.Descriptors.OneofDescriptor oneof) {
-      return super.clearOneof(oneof);
-    }
-    @java.lang.Override
-    public Builder setRepeatedField(
-        com.google.protobuf.Descriptors.FieldDescriptor field,
-        int index, java.lang.Object value) {
-      return super.setRepeatedField(field, index, value);
-    }
-    @java.lang.Override
-    public Builder addRepeatedField(
-        com.google.protobuf.Descriptors.FieldDescriptor field,
-        java.lang.Object value) {
-      return super.addRepeatedField(field, value);
-    }
-    @java.lang.Override
-    public Builder mergeFrom(com.google.protobuf.Message other) {
-      if (other instanceof com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest) {
-        return mergeFrom((com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest)other);
-      } else {
-        super.mergeFrom(other);
-        return this;
-      }
-    }
-
-    public Builder mergeFrom(com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest other) {
-      if (other == com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest.getDefaultInstance()) return this;
-      if (!other.getElements().isEmpty()) {
-        elements_ = other.elements_;
-        onChanged();
-      }
-      if (!other.getStatEleValueRanges().isEmpty()) {
-        statEleValueRanges_ = other.statEleValueRanges_;
-        onChanged();
-      }
-      if (!other.getLimitCnt().isEmpty()) {
-        limitCnt_ = other.limitCnt_;
-        onChanged();
-      }
-      if (!other.getOrderBy().isEmpty()) {
-        orderBy_ = other.orderBy_;
-        onChanged();
-      }
-      if (!other.getTimeRange().isEmpty()) {
-        timeRange_ = other.timeRange_;
-        onChanged();
-      }
-      if (!other.getStaIds().isEmpty()) {
-        staIds_ = other.staIds_;
-        onChanged();
-      }
-      if (!other.getStaLevels().isEmpty()) {
-        staLevels_ = other.staLevels_;
-        onChanged();
-      }
-      if (!other.getDataCode().isEmpty()) {
-        dataCode_ = other.dataCode_;
-        onChanged();
-      }
-      this.mergeUnknownFields(other.unknownFields);
-      onChanged();
-      return this;
-    }
-
-    @java.lang.Override
-    public final boolean isInitialized() {
-      return true;
-    }
-
-    @java.lang.Override
-    public Builder mergeFrom(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parsedMessage = null;
-      try {
-        parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
-      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        parsedMessage = (com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest) e.getUnfinishedMessage();
-        throw e.unwrapIOException();
-      } finally {
-        if (parsedMessage != null) {
-          mergeFrom(parsedMessage);
-        }
-      }
-      return this;
-    }
-
-    private java.lang.Object elements_ = "";
     /**
      * <code>string elements = 1;</code>
      */
     public java.lang.String getElements() {
-      java.lang.Object ref = elements_;
-      if (!(ref instanceof java.lang.String)) {
-        com.google.protobuf.ByteString bs =
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        elements_ = s;
-        return s;
-      } else {
-        return (java.lang.String) ref;
-      }
+        java.lang.Object ref = elements_;
+        if (ref instanceof java.lang.String) {
+            return (java.lang.String) ref;
+        } else {
+            com.google.protobuf.ByteString bs =
+                    (com.google.protobuf.ByteString) ref;
+            java.lang.String s = bs.toStringUtf8();
+            elements_ = s;
+            return s;
+        }
     }
+
     /**
      * <code>string elements = 1;</code>
      */
     public com.google.protobuf.ByteString
-        getElementsBytes() {
-      java.lang.Object ref = elements_;
-      if (ref instanceof String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        elements_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-    /**
-     * <code>string elements = 1;</code>
-     */
-    public Builder setElements(
-        java.lang.String value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  
-      elements_ = value;
-      onChanged();
-      return this;
-    }
-    /**
-     * <code>string elements = 1;</code>
-     */
-    public Builder clearElements() {
-      
-      elements_ = getDefaultInstance().getElements();
-      onChanged();
-      return this;
-    }
-    /**
-     * <code>string elements = 1;</code>
-     */
-    public Builder setElementsBytes(
-        com.google.protobuf.ByteString value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-      
-      elements_ = value;
-      onChanged();
-      return this;
+    getElementsBytes() {
+        java.lang.Object ref = elements_;
+        if (ref instanceof java.lang.String) {
+            com.google.protobuf.ByteString b =
+                    com.google.protobuf.ByteString.copyFromUtf8(
+                            (java.lang.String) ref);
+            elements_ = b;
+            return b;
+        } else {
+            return (com.google.protobuf.ByteString) ref;
+        }
     }
 
-    private java.lang.Object statEleValueRanges_ = "";
+    public static final int STATELEVALUERANGES_FIELD_NUMBER = 2;
+    private volatile java.lang.Object statEleValueRanges_;
+
     /**
      * <code>string statEleValueRanges = 2;</code>
      */
     public java.lang.String getStatEleValueRanges() {
-      java.lang.Object ref = statEleValueRanges_;
-      if (!(ref instanceof java.lang.String)) {
-        com.google.protobuf.ByteString bs =
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        statEleValueRanges_ = s;
-        return s;
-      } else {
-        return (java.lang.String) ref;
-      }
+        java.lang.Object ref = statEleValueRanges_;
+        if (ref instanceof java.lang.String) {
+            return (java.lang.String) ref;
+        } else {
+            com.google.protobuf.ByteString bs =
+                    (com.google.protobuf.ByteString) ref;
+            java.lang.String s = bs.toStringUtf8();
+            statEleValueRanges_ = s;
+            return s;
+        }
     }
+
     /**
      * <code>string statEleValueRanges = 2;</code>
      */
     public com.google.protobuf.ByteString
-        getStatEleValueRangesBytes() {
-      java.lang.Object ref = statEleValueRanges_;
-      if (ref instanceof String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        statEleValueRanges_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-    /**
-     * <code>string statEleValueRanges = 2;</code>
-     */
-    public Builder setStatEleValueRanges(
-        java.lang.String value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  
-      statEleValueRanges_ = value;
-      onChanged();
-      return this;
-    }
-    /**
-     * <code>string statEleValueRanges = 2;</code>
-     */
-    public Builder clearStatEleValueRanges() {
-      
-      statEleValueRanges_ = getDefaultInstance().getStatEleValueRanges();
-      onChanged();
-      return this;
-    }
-    /**
-     * <code>string statEleValueRanges = 2;</code>
-     */
-    public Builder setStatEleValueRangesBytes(
-        com.google.protobuf.ByteString value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-      
-      statEleValueRanges_ = value;
-      onChanged();
-      return this;
+    getStatEleValueRangesBytes() {
+        java.lang.Object ref = statEleValueRanges_;
+        if (ref instanceof java.lang.String) {
+            com.google.protobuf.ByteString b =
+                    com.google.protobuf.ByteString.copyFromUtf8(
+                            (java.lang.String) ref);
+            statEleValueRanges_ = b;
+            return b;
+        } else {
+            return (com.google.protobuf.ByteString) ref;
+        }
     }
 
-    private java.lang.Object limitCnt_ = "";
+    public static final int LIMITCNT_FIELD_NUMBER = 3;
+    private volatile java.lang.Object limitCnt_;
+
     /**
      * <code>string limitCnt = 3;</code>
      */
     public java.lang.String getLimitCnt() {
-      java.lang.Object ref = limitCnt_;
-      if (!(ref instanceof java.lang.String)) {
-        com.google.protobuf.ByteString bs =
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        limitCnt_ = s;
-        return s;
-      } else {
-        return (java.lang.String) ref;
-      }
+        java.lang.Object ref = limitCnt_;
+        if (ref instanceof java.lang.String) {
+            return (java.lang.String) ref;
+        } else {
+            com.google.protobuf.ByteString bs =
+                    (com.google.protobuf.ByteString) ref;
+            java.lang.String s = bs.toStringUtf8();
+            limitCnt_ = s;
+            return s;
+        }
     }
+
     /**
      * <code>string limitCnt = 3;</code>
      */
     public com.google.protobuf.ByteString
-        getLimitCntBytes() {
-      java.lang.Object ref = limitCnt_;
-      if (ref instanceof String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        limitCnt_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-    /**
-     * <code>string limitCnt = 3;</code>
-     */
-    public Builder setLimitCnt(
-        java.lang.String value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  
-      limitCnt_ = value;
-      onChanged();
-      return this;
-    }
-    /**
-     * <code>string limitCnt = 3;</code>
-     */
-    public Builder clearLimitCnt() {
-      
-      limitCnt_ = getDefaultInstance().getLimitCnt();
-      onChanged();
-      return this;
-    }
-    /**
-     * <code>string limitCnt = 3;</code>
-     */
-    public Builder setLimitCntBytes(
-        com.google.protobuf.ByteString value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-      
-      limitCnt_ = value;
-      onChanged();
-      return this;
+    getLimitCntBytes() {
+        java.lang.Object ref = limitCnt_;
+        if (ref instanceof java.lang.String) {
+            com.google.protobuf.ByteString b =
+                    com.google.protobuf.ByteString.copyFromUtf8(
+                            (java.lang.String) ref);
+            limitCnt_ = b;
+            return b;
+        } else {
+            return (com.google.protobuf.ByteString) ref;
+        }
     }
 
-    private java.lang.Object orderBy_ = "";
+    public static final int ORDERBY_FIELD_NUMBER = 4;
+    private volatile java.lang.Object orderBy_;
+
     /**
      * <code>string orderBy = 4;</code>
      */
     public java.lang.String getOrderBy() {
-      java.lang.Object ref = orderBy_;
-      if (!(ref instanceof java.lang.String)) {
-        com.google.protobuf.ByteString bs =
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        orderBy_ = s;
-        return s;
-      } else {
-        return (java.lang.String) ref;
-      }
+        java.lang.Object ref = orderBy_;
+        if (ref instanceof java.lang.String) {
+            return (java.lang.String) ref;
+        } else {
+            com.google.protobuf.ByteString bs =
+                    (com.google.protobuf.ByteString) ref;
+            java.lang.String s = bs.toStringUtf8();
+            orderBy_ = s;
+            return s;
+        }
     }
+
     /**
      * <code>string orderBy = 4;</code>
      */
     public com.google.protobuf.ByteString
-        getOrderByBytes() {
-      java.lang.Object ref = orderBy_;
-      if (ref instanceof String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        orderBy_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-    /**
-     * <code>string orderBy = 4;</code>
-     */
-    public Builder setOrderBy(
-        java.lang.String value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  
-      orderBy_ = value;
-      onChanged();
-      return this;
-    }
-    /**
-     * <code>string orderBy = 4;</code>
-     */
-    public Builder clearOrderBy() {
-      
-      orderBy_ = getDefaultInstance().getOrderBy();
-      onChanged();
-      return this;
-    }
-    /**
-     * <code>string orderBy = 4;</code>
-     */
-    public Builder setOrderByBytes(
-        com.google.protobuf.ByteString value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-      
-      orderBy_ = value;
-      onChanged();
-      return this;
+    getOrderByBytes() {
+        java.lang.Object ref = orderBy_;
+        if (ref instanceof java.lang.String) {
+            com.google.protobuf.ByteString b =
+                    com.google.protobuf.ByteString.copyFromUtf8(
+                            (java.lang.String) ref);
+            orderBy_ = b;
+            return b;
+        } else {
+            return (com.google.protobuf.ByteString) ref;
+        }
     }
 
-    private java.lang.Object timeRange_ = "";
+    public static final int TIMERANGE_FIELD_NUMBER = 5;
+    private volatile java.lang.Object timeRange_;
+
     /**
      * <code>string timeRange = 5;</code>
      */
     public java.lang.String getTimeRange() {
-      java.lang.Object ref = timeRange_;
-      if (!(ref instanceof java.lang.String)) {
-        com.google.protobuf.ByteString bs =
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        timeRange_ = s;
-        return s;
-      } else {
-        return (java.lang.String) ref;
-      }
+        java.lang.Object ref = timeRange_;
+        if (ref instanceof java.lang.String) {
+            return (java.lang.String) ref;
+        } else {
+            com.google.protobuf.ByteString bs =
+                    (com.google.protobuf.ByteString) ref;
+            java.lang.String s = bs.toStringUtf8();
+            timeRange_ = s;
+            return s;
+        }
     }
+
     /**
      * <code>string timeRange = 5;</code>
      */
     public com.google.protobuf.ByteString
-        getTimeRangeBytes() {
-      java.lang.Object ref = timeRange_;
-      if (ref instanceof String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        timeRange_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-    /**
-     * <code>string timeRange = 5;</code>
-     */
-    public Builder setTimeRange(
-        java.lang.String value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  
-      timeRange_ = value;
-      onChanged();
-      return this;
-    }
-    /**
-     * <code>string timeRange = 5;</code>
-     */
-    public Builder clearTimeRange() {
-      
-      timeRange_ = getDefaultInstance().getTimeRange();
-      onChanged();
-      return this;
-    }
-    /**
-     * <code>string timeRange = 5;</code>
-     */
-    public Builder setTimeRangeBytes(
-        com.google.protobuf.ByteString value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-      
-      timeRange_ = value;
-      onChanged();
-      return this;
+    getTimeRangeBytes() {
+        java.lang.Object ref = timeRange_;
+        if (ref instanceof java.lang.String) {
+            com.google.protobuf.ByteString b =
+                    com.google.protobuf.ByteString.copyFromUtf8(
+                            (java.lang.String) ref);
+            timeRange_ = b;
+            return b;
+        } else {
+            return (com.google.protobuf.ByteString) ref;
+        }
     }
 
-    private java.lang.Object staIds_ = "";
+    public static final int STAIDS_FIELD_NUMBER = 6;
+    private volatile java.lang.Object staIds_;
+
     /**
      * <code>string staIds = 6;</code>
      */
     public java.lang.String getStaIds() {
-      java.lang.Object ref = staIds_;
-      if (!(ref instanceof java.lang.String)) {
-        com.google.protobuf.ByteString bs =
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        staIds_ = s;
-        return s;
-      } else {
-        return (java.lang.String) ref;
-      }
+        java.lang.Object ref = staIds_;
+        if (ref instanceof java.lang.String) {
+            return (java.lang.String) ref;
+        } else {
+            com.google.protobuf.ByteString bs =
+                    (com.google.protobuf.ByteString) ref;
+            java.lang.String s = bs.toStringUtf8();
+            staIds_ = s;
+            return s;
+        }
     }
+
     /**
      * <code>string staIds = 6;</code>
      */
     public com.google.protobuf.ByteString
-        getStaIdsBytes() {
-      java.lang.Object ref = staIds_;
-      if (ref instanceof String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        staIds_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-    /**
-     * <code>string staIds = 6;</code>
-     */
-    public Builder setStaIds(
-        java.lang.String value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  
-      staIds_ = value;
-      onChanged();
-      return this;
-    }
-    /**
-     * <code>string staIds = 6;</code>
-     */
-    public Builder clearStaIds() {
-      
-      staIds_ = getDefaultInstance().getStaIds();
-      onChanged();
-      return this;
-    }
-    /**
-     * <code>string staIds = 6;</code>
-     */
-    public Builder setStaIdsBytes(
-        com.google.protobuf.ByteString value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-      
-      staIds_ = value;
-      onChanged();
-      return this;
+    getStaIdsBytes() {
+        java.lang.Object ref = staIds_;
+        if (ref instanceof java.lang.String) {
+            com.google.protobuf.ByteString b =
+                    com.google.protobuf.ByteString.copyFromUtf8(
+                            (java.lang.String) ref);
+            staIds_ = b;
+            return b;
+        } else {
+            return (com.google.protobuf.ByteString) ref;
+        }
     }
 
-    private java.lang.Object staLevels_ = "";
+    public static final int STALEVELS_FIELD_NUMBER = 7;
+    private volatile java.lang.Object staLevels_;
+
     /**
      * <code>string staLevels = 7;</code>
      */
     public java.lang.String getStaLevels() {
-      java.lang.Object ref = staLevels_;
-      if (!(ref instanceof java.lang.String)) {
-        com.google.protobuf.ByteString bs =
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        staLevels_ = s;
-        return s;
-      } else {
-        return (java.lang.String) ref;
-      }
+        java.lang.Object ref = staLevels_;
+        if (ref instanceof java.lang.String) {
+            return (java.lang.String) ref;
+        } else {
+            com.google.protobuf.ByteString bs =
+                    (com.google.protobuf.ByteString) ref;
+            java.lang.String s = bs.toStringUtf8();
+            staLevels_ = s;
+            return s;
+        }
     }
+
     /**
      * <code>string staLevels = 7;</code>
      */
     public com.google.protobuf.ByteString
-        getStaLevelsBytes() {
-      java.lang.Object ref = staLevels_;
-      if (ref instanceof String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        staLevels_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-    /**
-     * <code>string staLevels = 7;</code>
-     */
-    public Builder setStaLevels(
-        java.lang.String value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  
-      staLevels_ = value;
-      onChanged();
-      return this;
-    }
-    /**
-     * <code>string staLevels = 7;</code>
-     */
-    public Builder clearStaLevels() {
-      
-      staLevels_ = getDefaultInstance().getStaLevels();
-      onChanged();
-      return this;
-    }
-    /**
-     * <code>string staLevels = 7;</code>
-     */
-    public Builder setStaLevelsBytes(
-        com.google.protobuf.ByteString value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-      
-      staLevels_ = value;
-      onChanged();
-      return this;
+    getStaLevelsBytes() {
+        java.lang.Object ref = staLevels_;
+        if (ref instanceof java.lang.String) {
+            com.google.protobuf.ByteString b =
+                    com.google.protobuf.ByteString.copyFromUtf8(
+                            (java.lang.String) ref);
+            staLevels_ = b;
+            return b;
+        } else {
+            return (com.google.protobuf.ByteString) ref;
+        }
     }
 
-    private java.lang.Object dataCode_ = "";
+    public static final int DATACODE_FIELD_NUMBER = 8;
+    private volatile java.lang.Object dataCode_;
+
     /**
      * <code>string dataCode = 8;</code>
      */
     public java.lang.String getDataCode() {
-      java.lang.Object ref = dataCode_;
-      if (!(ref instanceof java.lang.String)) {
-        com.google.protobuf.ByteString bs =
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        dataCode_ = s;
-        return s;
-      } else {
-        return (java.lang.String) ref;
-      }
+        java.lang.Object ref = dataCode_;
+        if (ref instanceof java.lang.String) {
+            return (java.lang.String) ref;
+        } else {
+            com.google.protobuf.ByteString bs =
+                    (com.google.protobuf.ByteString) ref;
+            java.lang.String s = bs.toStringUtf8();
+            dataCode_ = s;
+            return s;
+        }
     }
+
     /**
      * <code>string dataCode = 8;</code>
      */
     public com.google.protobuf.ByteString
+    getDataCodeBytes() {
+        java.lang.Object ref = dataCode_;
+        if (ref instanceof java.lang.String) {
+            com.google.protobuf.ByteString b =
+                    com.google.protobuf.ByteString.copyFromUtf8(
+                            (java.lang.String) ref);
+            dataCode_ = b;
+            return b;
+        } else {
+            return (com.google.protobuf.ByteString) ref;
+        }
+    }
+
+    private byte memoizedIsInitialized = -1;
+
+    @java.lang.Override
+    public final boolean isInitialized() {
+        byte isInitialized = memoizedIsInitialized;
+        if (isInitialized == 1) return true;
+        if (isInitialized == 0) return false;
+
+        memoizedIsInitialized = 1;
+        return true;
+    }
+
+    @java.lang.Override
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+            throws java.io.IOException {
+        if (!getElementsBytes().isEmpty()) {
+            com.google.protobuf.GeneratedMessageV3.writeString(output, 1, elements_);
+        }
+        if (!getStatEleValueRangesBytes().isEmpty()) {
+            com.google.protobuf.GeneratedMessageV3.writeString(output, 2, statEleValueRanges_);
+        }
+        if (!getLimitCntBytes().isEmpty()) {
+            com.google.protobuf.GeneratedMessageV3.writeString(output, 3, limitCnt_);
+        }
+        if (!getOrderByBytes().isEmpty()) {
+            com.google.protobuf.GeneratedMessageV3.writeString(output, 4, orderBy_);
+        }
+        if (!getTimeRangeBytes().isEmpty()) {
+            com.google.protobuf.GeneratedMessageV3.writeString(output, 5, timeRange_);
+        }
+        if (!getStaIdsBytes().isEmpty()) {
+            com.google.protobuf.GeneratedMessageV3.writeString(output, 6, staIds_);
+        }
+        if (!getStaLevelsBytes().isEmpty()) {
+            com.google.protobuf.GeneratedMessageV3.writeString(output, 7, staLevels_);
+        }
+        if (!getDataCodeBytes().isEmpty()) {
+            com.google.protobuf.GeneratedMessageV3.writeString(output, 8, dataCode_);
+        }
+        unknownFields.writeTo(output);
+    }
+
+    @java.lang.Override
+    public int getSerializedSize() {
+        int size = memoizedSize;
+        if (size != -1) return size;
+
+        size = 0;
+        if (!getElementsBytes().isEmpty()) {
+            size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, elements_);
+        }
+        if (!getStatEleValueRangesBytes().isEmpty()) {
+            size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, statEleValueRanges_);
+        }
+        if (!getLimitCntBytes().isEmpty()) {
+            size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, limitCnt_);
+        }
+        if (!getOrderByBytes().isEmpty()) {
+            size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, orderBy_);
+        }
+        if (!getTimeRangeBytes().isEmpty()) {
+            size += com.google.protobuf.GeneratedMessageV3.computeStringSize(5, timeRange_);
+        }
+        if (!getStaIdsBytes().isEmpty()) {
+            size += com.google.protobuf.GeneratedMessageV3.computeStringSize(6, staIds_);
+        }
+        if (!getStaLevelsBytes().isEmpty()) {
+            size += com.google.protobuf.GeneratedMessageV3.computeStringSize(7, staLevels_);
+        }
+        if (!getDataCodeBytes().isEmpty()) {
+            size += com.google.protobuf.GeneratedMessageV3.computeStringSize(8, dataCode_);
+        }
+        size += unknownFields.getSerializedSize();
+        memoizedSize = size;
+        return size;
+    }
+
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (!(obj instanceof com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest)) {
+            return super.equals(obj);
+        }
+        com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest other = (com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest) obj;
+
+        if (!getElements()
+                .equals(other.getElements())) return false;
+        if (!getStatEleValueRanges()
+                .equals(other.getStatEleValueRanges())) return false;
+        if (!getLimitCnt()
+                .equals(other.getLimitCnt())) return false;
+        if (!getOrderBy()
+                .equals(other.getOrderBy())) return false;
+        if (!getTimeRange()
+                .equals(other.getTimeRange())) return false;
+        if (!getStaIds()
+                .equals(other.getStaIds())) return false;
+        if (!getStaLevels()
+                .equals(other.getStaLevels())) return false;
+        if (!getDataCode()
+                .equals(other.getDataCode())) return false;
+        if (!unknownFields.equals(other.unknownFields)) return false;
+        return true;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+        if (memoizedHashCode != 0) {
+            return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptor().hashCode();
+        hash = (37 * hash) + ELEMENTS_FIELD_NUMBER;
+        hash = (53 * hash) + getElements().hashCode();
+        hash = (37 * hash) + STATELEVALUERANGES_FIELD_NUMBER;
+        hash = (53 * hash) + getStatEleValueRanges().hashCode();
+        hash = (37 * hash) + LIMITCNT_FIELD_NUMBER;
+        hash = (53 * hash) + getLimitCnt().hashCode();
+        hash = (37 * hash) + ORDERBY_FIELD_NUMBER;
+        hash = (53 * hash) + getOrderBy().hashCode();
+        hash = (37 * hash) + TIMERANGE_FIELD_NUMBER;
+        hash = (53 * hash) + getTimeRange().hashCode();
+        hash = (37 * hash) + STAIDS_FIELD_NUMBER;
+        hash = (53 * hash) + getStaIds().hashCode();
+        hash = (37 * hash) + STALEVELS_FIELD_NUMBER;
+        hash = (53 * hash) + getStaLevels().hashCode();
+        hash = (37 * hash) + DATACODE_FIELD_NUMBER;
+        hash = (53 * hash) + getDataCode().hashCode();
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+    }
+
+    public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(
+            java.nio.ByteBuffer data)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+    }
+
+    public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(
+            java.nio.ByteBuffer data,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+    }
+
+    public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(
+            com.google.protobuf.ByteString data)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+    }
+
+    public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(
+            com.google.protobuf.ByteString data,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+    }
+
+    public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(byte[] data)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+    }
+
+    public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(
+            byte[] data,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+    }
+
+    public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(java.io.InputStream input)
+            throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+                .parseWithIOException(PARSER, input);
+    }
+
+    public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(
+            java.io.InputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+                .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+
+    public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseDelimitedFrom(java.io.InputStream input)
+            throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+                .parseDelimitedWithIOException(PARSER, input);
+    }
+
+    public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseDelimitedFrom(
+            java.io.InputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+                .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+    }
+
+    public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(
+            com.google.protobuf.CodedInputStream input)
+            throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+                .parseWithIOException(PARSER, input);
+    }
+
+    public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parseFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+                .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+
+    @java.lang.Override
+    public Builder newBuilderForType() {
+        return newBuilder();
+    }
+
+    public static Builder newBuilder() {
+        return DEFAULT_INSTANCE.toBuilder();
+    }
+
+    public static Builder newBuilder(com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest prototype) {
+        return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+    }
+
+    @java.lang.Override
+    public Builder toBuilder() {
+        return this == DEFAULT_INSTANCE
+                ? new Builder() : new Builder().mergeFrom(this);
+    }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+        Builder builder = new Builder(parent);
+        return builder;
+    }
+
+    /**
+     * Protobuf type {@code surfaceDataSelect.StatSurfTemFtmByStaIDRequest}
+     */
+    public static final class Builder extends
+            com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
+            // @@protoc_insertion_point(builder_implements:surfaceDataSelect.StatSurfTemFtmByStaIDRequest)
+            com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequestOrBuilder {
+        public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+            return com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.SelectProto.internal_static_surfaceDataSelect_StatSurfTemFtmByStaIDRequest_descriptor;
+        }
+
+        @java.lang.Override
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+            return com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.SelectProto.internal_static_surfaceDataSelect_StatSurfTemFtmByStaIDRequest_fieldAccessorTable
+                    .ensureFieldAccessorsInitialized(
+                            com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest.class, com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest.Builder.class);
+        }
+
+        // Construct using com.rihang.surface.grpc.surfaceSelect.StatSurfTemFtmByStaIDRequest.newBuilder()
+        private Builder() {
+            maybeForceBuilderInitialization();
+        }
+
+        private Builder(
+                com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+            super(parent);
+            maybeForceBuilderInitialization();
+        }
+
+        private void maybeForceBuilderInitialization() {
+            if (com.google.protobuf.GeneratedMessageV3
+                    .alwaysUseFieldBuilders) {
+            }
+        }
+
+        @java.lang.Override
+        public Builder clear() {
+            super.clear();
+            elements_ = "";
+
+            statEleValueRanges_ = "";
+
+            limitCnt_ = "";
+
+            orderBy_ = "";
+
+            timeRange_ = "";
+
+            staIds_ = "";
+
+            staLevels_ = "";
+
+            dataCode_ = "";
+
+            return this;
+        }
+
+        @java.lang.Override
+        public com.google.protobuf.Descriptors.Descriptor
+        getDescriptorForType() {
+            return com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.SelectProto.internal_static_surfaceDataSelect_StatSurfTemFtmByStaIDRequest_descriptor;
+        }
+
+        @java.lang.Override
+        public com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest getDefaultInstanceForType() {
+            return com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest.getDefaultInstance();
+        }
+
+        @java.lang.Override
+        public com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest build() {
+            com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest result = buildPartial();
+            if (!result.isInitialized()) {
+                throw newUninitializedMessageException(result);
+            }
+            return result;
+        }
+
+        @java.lang.Override
+        public com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest buildPartial() {
+            com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest result = new com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest(this);
+            result.elements_ = elements_;
+            result.statEleValueRanges_ = statEleValueRanges_;
+            result.limitCnt_ = limitCnt_;
+            result.orderBy_ = orderBy_;
+            result.timeRange_ = timeRange_;
+            result.staIds_ = staIds_;
+            result.staLevels_ = staLevels_;
+            result.dataCode_ = dataCode_;
+            onBuilt();
+            return result;
+        }
+
+        @java.lang.Override
+        public Builder clone() {
+            return super.clone();
+        }
+
+        @java.lang.Override
+        public Builder setField(
+                com.google.protobuf.Descriptors.FieldDescriptor field,
+                java.lang.Object value) {
+            return super.setField(field, value);
+        }
+
+        @java.lang.Override
+        public Builder clearField(
+                com.google.protobuf.Descriptors.FieldDescriptor field) {
+            return super.clearField(field);
+        }
+
+        @java.lang.Override
+        public Builder clearOneof(
+                com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+            return super.clearOneof(oneof);
+        }
+
+        @java.lang.Override
+        public Builder setRepeatedField(
+                com.google.protobuf.Descriptors.FieldDescriptor field,
+                int index, java.lang.Object value) {
+            return super.setRepeatedField(field, index, value);
+        }
+
+        @java.lang.Override
+        public Builder addRepeatedField(
+                com.google.protobuf.Descriptors.FieldDescriptor field,
+                java.lang.Object value) {
+            return super.addRepeatedField(field, value);
+        }
+
+        @java.lang.Override
+        public Builder mergeFrom(com.google.protobuf.Message other) {
+            if (other instanceof com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest) {
+                return mergeFrom((com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest) other);
+            } else {
+                super.mergeFrom(other);
+                return this;
+            }
+        }
+
+        public Builder mergeFrom(com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest other) {
+            if (other == com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest.getDefaultInstance())
+                return this;
+            if (!other.getElements().isEmpty()) {
+                elements_ = other.elements_;
+                onChanged();
+            }
+            if (!other.getStatEleValueRanges().isEmpty()) {
+                statEleValueRanges_ = other.statEleValueRanges_;
+                onChanged();
+            }
+            if (!other.getLimitCnt().isEmpty()) {
+                limitCnt_ = other.limitCnt_;
+                onChanged();
+            }
+            if (!other.getOrderBy().isEmpty()) {
+                orderBy_ = other.orderBy_;
+                onChanged();
+            }
+            if (!other.getTimeRange().isEmpty()) {
+                timeRange_ = other.timeRange_;
+                onChanged();
+            }
+            if (!other.getStaIds().isEmpty()) {
+                staIds_ = other.staIds_;
+                onChanged();
+            }
+            if (!other.getStaLevels().isEmpty()) {
+                staLevels_ = other.staLevels_;
+                onChanged();
+            }
+            if (!other.getDataCode().isEmpty()) {
+                dataCode_ = other.dataCode_;
+                onChanged();
+            }
+            this.mergeUnknownFields(other.unknownFields);
+            onChanged();
+            return this;
+        }
+
+        @java.lang.Override
+        public final boolean isInitialized() {
+            return true;
+        }
+
+        @java.lang.Override
+        public Builder mergeFrom(
+                com.google.protobuf.CodedInputStream input,
+                com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+                throws java.io.IOException {
+            com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest parsedMessage = null;
+            try {
+                parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+            } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+                parsedMessage = (com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest) e.getUnfinishedMessage();
+                throw e.unwrapIOException();
+            } finally {
+                if (parsedMessage != null) {
+                    mergeFrom(parsedMessage);
+                }
+            }
+            return this;
+        }
+
+        private java.lang.Object elements_ = "";
+
+        /**
+         * <code>string elements = 1;</code>
+         */
+        public java.lang.String getElements() {
+            java.lang.Object ref = elements_;
+            if (!(ref instanceof java.lang.String)) {
+                com.google.protobuf.ByteString bs =
+                        (com.google.protobuf.ByteString) ref;
+                java.lang.String s = bs.toStringUtf8();
+                elements_ = s;
+                return s;
+            } else {
+                return (java.lang.String) ref;
+            }
+        }
+
+        /**
+         * <code>string elements = 1;</code>
+         */
+        public com.google.protobuf.ByteString
+        getElementsBytes() {
+            java.lang.Object ref = elements_;
+            if (ref instanceof String) {
+                com.google.protobuf.ByteString b =
+                        com.google.protobuf.ByteString.copyFromUtf8(
+                                (java.lang.String) ref);
+                elements_ = b;
+                return b;
+            } else {
+                return (com.google.protobuf.ByteString) ref;
+            }
+        }
+
+        /**
+         * <code>string elements = 1;</code>
+         */
+        public Builder setElements(
+                java.lang.String value) {
+            if (value == null) {
+                throw new NullPointerException();
+            }
+
+            elements_ = value;
+            onChanged();
+            return this;
+        }
+
+        /**
+         * <code>string elements = 1;</code>
+         */
+        public Builder clearElements() {
+
+            elements_ = getDefaultInstance().getElements();
+            onChanged();
+            return this;
+        }
+
+        /**
+         * <code>string elements = 1;</code>
+         */
+        public Builder setElementsBytes(
+                com.google.protobuf.ByteString value) {
+            if (value == null) {
+                throw new NullPointerException();
+            }
+            checkByteStringIsUtf8(value);
+
+            elements_ = value;
+            onChanged();
+            return this;
+        }
+
+        private java.lang.Object statEleValueRanges_ = "";
+
+        /**
+         * <code>string statEleValueRanges = 2;</code>
+         */
+        public java.lang.String getStatEleValueRanges() {
+            java.lang.Object ref = statEleValueRanges_;
+            if (!(ref instanceof java.lang.String)) {
+                com.google.protobuf.ByteString bs =
+                        (com.google.protobuf.ByteString) ref;
+                java.lang.String s = bs.toStringUtf8();
+                statEleValueRanges_ = s;
+                return s;
+            } else {
+                return (java.lang.String) ref;
+            }
+        }
+
+        /**
+         * <code>string statEleValueRanges = 2;</code>
+         */
+        public com.google.protobuf.ByteString
+        getStatEleValueRangesBytes() {
+            java.lang.Object ref = statEleValueRanges_;
+            if (ref instanceof String) {
+                com.google.protobuf.ByteString b =
+                        com.google.protobuf.ByteString.copyFromUtf8(
+                                (java.lang.String) ref);
+                statEleValueRanges_ = b;
+                return b;
+            } else {
+                return (com.google.protobuf.ByteString) ref;
+            }
+        }
+
+        /**
+         * <code>string statEleValueRanges = 2;</code>
+         */
+        public Builder setStatEleValueRanges(
+                java.lang.String value) {
+            if (value == null) {
+                throw new NullPointerException();
+            }
+
+            statEleValueRanges_ = value;
+            onChanged();
+            return this;
+        }
+
+        /**
+         * <code>string statEleValueRanges = 2;</code>
+         */
+        public Builder clearStatEleValueRanges() {
+
+            statEleValueRanges_ = getDefaultInstance().getStatEleValueRanges();
+            onChanged();
+            return this;
+        }
+
+        /**
+         * <code>string statEleValueRanges = 2;</code>
+         */
+        public Builder setStatEleValueRangesBytes(
+                com.google.protobuf.ByteString value) {
+            if (value == null) {
+                throw new NullPointerException();
+            }
+            checkByteStringIsUtf8(value);
+
+            statEleValueRanges_ = value;
+            onChanged();
+            return this;
+        }
+
+        private java.lang.Object limitCnt_ = "";
+
+        /**
+         * <code>string limitCnt = 3;</code>
+         */
+        public java.lang.String getLimitCnt() {
+            java.lang.Object ref = limitCnt_;
+            if (!(ref instanceof java.lang.String)) {
+                com.google.protobuf.ByteString bs =
+                        (com.google.protobuf.ByteString) ref;
+                java.lang.String s = bs.toStringUtf8();
+                limitCnt_ = s;
+                return s;
+            } else {
+                return (java.lang.String) ref;
+            }
+        }
+
+        /**
+         * <code>string limitCnt = 3;</code>
+         */
+        public com.google.protobuf.ByteString
+        getLimitCntBytes() {
+            java.lang.Object ref = limitCnt_;
+            if (ref instanceof String) {
+                com.google.protobuf.ByteString b =
+                        com.google.protobuf.ByteString.copyFromUtf8(
+                                (java.lang.String) ref);
+                limitCnt_ = b;
+                return b;
+            } else {
+                return (com.google.protobuf.ByteString) ref;
+            }
+        }
+
+        /**
+         * <code>string limitCnt = 3;</code>
+         */
+        public Builder setLimitCnt(
+                java.lang.String value) {
+            if (value == null) {
+                throw new NullPointerException();
+            }
+
+            limitCnt_ = value;
+            onChanged();
+            return this;
+        }
+
+        /**
+         * <code>string limitCnt = 3;</code>
+         */
+        public Builder clearLimitCnt() {
+
+            limitCnt_ = getDefaultInstance().getLimitCnt();
+            onChanged();
+            return this;
+        }
+
+        /**
+         * <code>string limitCnt = 3;</code>
+         */
+        public Builder setLimitCntBytes(
+                com.google.protobuf.ByteString value) {
+            if (value == null) {
+                throw new NullPointerException();
+            }
+            checkByteStringIsUtf8(value);
+
+            limitCnt_ = value;
+            onChanged();
+            return this;
+        }
+
+        private java.lang.Object orderBy_ = "";
+
+        /**
+         * <code>string orderBy = 4;</code>
+         */
+        public java.lang.String getOrderBy() {
+            java.lang.Object ref = orderBy_;
+            if (!(ref instanceof java.lang.String)) {
+                com.google.protobuf.ByteString bs =
+                        (com.google.protobuf.ByteString) ref;
+                java.lang.String s = bs.toStringUtf8();
+                orderBy_ = s;
+                return s;
+            } else {
+                return (java.lang.String) ref;
+            }
+        }
+
+        /**
+         * <code>string orderBy = 4;</code>
+         */
+        public com.google.protobuf.ByteString
+        getOrderByBytes() {
+            java.lang.Object ref = orderBy_;
+            if (ref instanceof String) {
+                com.google.protobuf.ByteString b =
+                        com.google.protobuf.ByteString.copyFromUtf8(
+                                (java.lang.String) ref);
+                orderBy_ = b;
+                return b;
+            } else {
+                return (com.google.protobuf.ByteString) ref;
+            }
+        }
+
+        /**
+         * <code>string orderBy = 4;</code>
+         */
+        public Builder setOrderBy(
+                java.lang.String value) {
+            if (value == null) {
+                throw new NullPointerException();
+            }
+
+            orderBy_ = value;
+            onChanged();
+            return this;
+        }
+
+        /**
+         * <code>string orderBy = 4;</code>
+         */
+        public Builder clearOrderBy() {
+
+            orderBy_ = getDefaultInstance().getOrderBy();
+            onChanged();
+            return this;
+        }
+
+        /**
+         * <code>string orderBy = 4;</code>
+         */
+        public Builder setOrderByBytes(
+                com.google.protobuf.ByteString value) {
+            if (value == null) {
+                throw new NullPointerException();
+            }
+            checkByteStringIsUtf8(value);
+
+            orderBy_ = value;
+            onChanged();
+            return this;
+        }
+
+        private java.lang.Object timeRange_ = "";
+
+        /**
+         * <code>string timeRange = 5;</code>
+         */
+        public java.lang.String getTimeRange() {
+            java.lang.Object ref = timeRange_;
+            if (!(ref instanceof java.lang.String)) {
+                com.google.protobuf.ByteString bs =
+                        (com.google.protobuf.ByteString) ref;
+                java.lang.String s = bs.toStringUtf8();
+                timeRange_ = s;
+                return s;
+            } else {
+                return (java.lang.String) ref;
+            }
+        }
+
+        /**
+         * <code>string timeRange = 5;</code>
+         */
+        public com.google.protobuf.ByteString
+        getTimeRangeBytes() {
+            java.lang.Object ref = timeRange_;
+            if (ref instanceof String) {
+                com.google.protobuf.ByteString b =
+                        com.google.protobuf.ByteString.copyFromUtf8(
+                                (java.lang.String) ref);
+                timeRange_ = b;
+                return b;
+            } else {
+                return (com.google.protobuf.ByteString) ref;
+            }
+        }
+
+        /**
+         * <code>string timeRange = 5;</code>
+         */
+        public Builder setTimeRange(
+                java.lang.String value) {
+            if (value == null) {
+                throw new NullPointerException();
+            }
+
+            timeRange_ = value;
+            onChanged();
+            return this;
+        }
+
+        /**
+         * <code>string timeRange = 5;</code>
+         */
+        public Builder clearTimeRange() {
+
+            timeRange_ = getDefaultInstance().getTimeRange();
+            onChanged();
+            return this;
+        }
+
+        /**
+         * <code>string timeRange = 5;</code>
+         */
+        public Builder setTimeRangeBytes(
+                com.google.protobuf.ByteString value) {
+            if (value == null) {
+                throw new NullPointerException();
+            }
+            checkByteStringIsUtf8(value);
+
+            timeRange_ = value;
+            onChanged();
+            return this;
+        }
+
+        private java.lang.Object staIds_ = "";
+
+        /**
+         * <code>string staIds = 6;</code>
+         */
+        public java.lang.String getStaIds() {
+            java.lang.Object ref = staIds_;
+            if (!(ref instanceof java.lang.String)) {
+                com.google.protobuf.ByteString bs =
+                        (com.google.protobuf.ByteString) ref;
+                java.lang.String s = bs.toStringUtf8();
+                staIds_ = s;
+                return s;
+            } else {
+                return (java.lang.String) ref;
+            }
+        }
+
+        /**
+         * <code>string staIds = 6;</code>
+         */
+        public com.google.protobuf.ByteString
+        getStaIdsBytes() {
+            java.lang.Object ref = staIds_;
+            if (ref instanceof String) {
+                com.google.protobuf.ByteString b =
+                        com.google.protobuf.ByteString.copyFromUtf8(
+                                (java.lang.String) ref);
+                staIds_ = b;
+                return b;
+            } else {
+                return (com.google.protobuf.ByteString) ref;
+            }
+        }
+
+        /**
+         * <code>string staIds = 6;</code>
+         */
+        public Builder setStaIds(
+                java.lang.String value) {
+            if (value == null) {
+                throw new NullPointerException();
+            }
+
+            staIds_ = value;
+            onChanged();
+            return this;
+        }
+
+        /**
+         * <code>string staIds = 6;</code>
+         */
+        public Builder clearStaIds() {
+
+            staIds_ = getDefaultInstance().getStaIds();
+            onChanged();
+            return this;
+        }
+
+        /**
+         * <code>string staIds = 6;</code>
+         */
+        public Builder setStaIdsBytes(
+                com.google.protobuf.ByteString value) {
+            if (value == null) {
+                throw new NullPointerException();
+            }
+            checkByteStringIsUtf8(value);
+
+            staIds_ = value;
+            onChanged();
+            return this;
+        }
+
+        private java.lang.Object staLevels_ = "";
+
+        /**
+         * <code>string staLevels = 7;</code>
+         */
+        public java.lang.String getStaLevels() {
+            java.lang.Object ref = staLevels_;
+            if (!(ref instanceof java.lang.String)) {
+                com.google.protobuf.ByteString bs =
+                        (com.google.protobuf.ByteString) ref;
+                java.lang.String s = bs.toStringUtf8();
+                staLevels_ = s;
+                return s;
+            } else {
+                return (java.lang.String) ref;
+            }
+        }
+
+        /**
+         * <code>string staLevels = 7;</code>
+         */
+        public com.google.protobuf.ByteString
+        getStaLevelsBytes() {
+            java.lang.Object ref = staLevels_;
+            if (ref instanceof String) {
+                com.google.protobuf.ByteString b =
+                        com.google.protobuf.ByteString.copyFromUtf8(
+                                (java.lang.String) ref);
+                staLevels_ = b;
+                return b;
+            } else {
+                return (com.google.protobuf.ByteString) ref;
+            }
+        }
+
+        /**
+         * <code>string staLevels = 7;</code>
+         */
+        public Builder setStaLevels(
+                java.lang.String value) {
+            if (value == null) {
+                throw new NullPointerException();
+            }
+
+            staLevels_ = value;
+            onChanged();
+            return this;
+        }
+
+        /**
+         * <code>string staLevels = 7;</code>
+         */
+        public Builder clearStaLevels() {
+
+            staLevels_ = getDefaultInstance().getStaLevels();
+            onChanged();
+            return this;
+        }
+
+        /**
+         * <code>string staLevels = 7;</code>
+         */
+        public Builder setStaLevelsBytes(
+                com.google.protobuf.ByteString value) {
+            if (value == null) {
+                throw new NullPointerException();
+            }
+            checkByteStringIsUtf8(value);
+
+            staLevels_ = value;
+            onChanged();
+            return this;
+        }
+
+        private java.lang.Object dataCode_ = "";
+
+        /**
+         * <code>string dataCode = 8;</code>
+         */
+        public java.lang.String getDataCode() {
+            java.lang.Object ref = dataCode_;
+            if (!(ref instanceof java.lang.String)) {
+                com.google.protobuf.ByteString bs =
+                        (com.google.protobuf.ByteString) ref;
+                java.lang.String s = bs.toStringUtf8();
+                dataCode_ = s;
+                return s;
+            } else {
+                return (java.lang.String) ref;
+            }
+        }
+
+        /**
+         * <code>string dataCode = 8;</code>
+         */
+        public com.google.protobuf.ByteString
         getDataCodeBytes() {
-      java.lang.Object ref = dataCode_;
-      if (ref instanceof String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        dataCode_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+            java.lang.Object ref = dataCode_;
+            if (ref instanceof String) {
+                com.google.protobuf.ByteString b =
+                        com.google.protobuf.ByteString.copyFromUtf8(
+                                (java.lang.String) ref);
+                dataCode_ = b;
+                return b;
+            } else {
+                return (com.google.protobuf.ByteString) ref;
+            }
+        }
+
+        /**
+         * <code>string dataCode = 8;</code>
+         */
+        public Builder setDataCode(
+                java.lang.String value) {
+            if (value == null) {
+                throw new NullPointerException();
+            }
+
+            dataCode_ = value;
+            onChanged();
+            return this;
+        }
+
+        /**
+         * <code>string dataCode = 8;</code>
+         */
+        public Builder clearDataCode() {
+
+            dataCode_ = getDefaultInstance().getDataCode();
+            onChanged();
+            return this;
+        }
+
+        /**
+         * <code>string dataCode = 8;</code>
+         */
+        public Builder setDataCodeBytes(
+                com.google.protobuf.ByteString value) {
+            if (value == null) {
+                throw new NullPointerException();
+            }
+            checkByteStringIsUtf8(value);
+
+            dataCode_ = value;
+            onChanged();
+            return this;
+        }
+
+        @java.lang.Override
+        public final Builder setUnknownFields(
+                final com.google.protobuf.UnknownFieldSet unknownFields) {
+            return super.setUnknownFields(unknownFields);
+        }
+
+        @java.lang.Override
+        public final Builder mergeUnknownFields(
+                final com.google.protobuf.UnknownFieldSet unknownFields) {
+            return super.mergeUnknownFields(unknownFields);
+        }
+
+
+        // @@protoc_insertion_point(builder_scope:surfaceDataSelect.StatSurfTemFtmByStaIDRequest)
     }
-    /**
-     * <code>string dataCode = 8;</code>
-     */
-    public Builder setDataCode(
-        java.lang.String value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  
-      dataCode_ = value;
-      onChanged();
-      return this;
+
+    // @@protoc_insertion_point(class_scope:surfaceDataSelect.StatSurfTemFtmByStaIDRequest)
+    private static final com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest DEFAULT_INSTANCE;
+
+    static {
+        DEFAULT_INSTANCE = new com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest();
     }
-    /**
-     * <code>string dataCode = 8;</code>
-     */
-    public Builder clearDataCode() {
-      
-      dataCode_ = getDefaultInstance().getDataCode();
-      onChanged();
-      return this;
+
+    public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest getDefaultInstance() {
+        return DEFAULT_INSTANCE;
     }
-    /**
-     * <code>string dataCode = 8;</code>
-     */
-    public Builder setDataCodeBytes(
-        com.google.protobuf.ByteString value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-      
-      dataCode_ = value;
-      onChanged();
-      return this;
+
+    private static final com.google.protobuf.Parser<StatSurfTemFtmByStaIDRequest>
+            PARSER = new com.google.protobuf.AbstractParser<StatSurfTemFtmByStaIDRequest>() {
+        @java.lang.Override
+        public StatSurfTemFtmByStaIDRequest parsePartialFrom(
+                com.google.protobuf.CodedInputStream input,
+                com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+                throws com.google.protobuf.InvalidProtocolBufferException {
+            return new StatSurfTemFtmByStaIDRequest(input, extensionRegistry);
+        }
+    };
+
+    public static com.google.protobuf.Parser<StatSurfTemFtmByStaIDRequest> parser() {
+        return PARSER;
     }
+
     @java.lang.Override
-    public final Builder setUnknownFields(
-        final com.google.protobuf.UnknownFieldSet unknownFields) {
-      return super.setUnknownFields(unknownFields);
+    public com.google.protobuf.Parser<StatSurfTemFtmByStaIDRequest> getParserForType() {
+        return PARSER;
     }
 
     @java.lang.Override
-    public final Builder mergeUnknownFields(
-        final com.google.protobuf.UnknownFieldSet unknownFields) {
-      return super.mergeUnknownFields(unknownFields);
+    public com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest getDefaultInstanceForType() {
+        return DEFAULT_INSTANCE;
     }
-
-
-    // @@protoc_insertion_point(builder_scope:surfaceDataSelect.StatSurfTemFtmByStaIDRequest)
-  }
-
-  // @@protoc_insertion_point(class_scope:surfaceDataSelect.StatSurfTemFtmByStaIDRequest)
-  private static final com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest DEFAULT_INSTANCE;
-  static {
-    DEFAULT_INSTANCE = new com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest();
-  }
-
-  public static com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest getDefaultInstance() {
-    return DEFAULT_INSTANCE;
-  }
-
-  private static final com.google.protobuf.Parser<StatSurfTemFtmByStaIDRequest>
-      PARSER = new com.google.protobuf.AbstractParser<StatSurfTemFtmByStaIDRequest>() {
-    @java.lang.Override
-    public StatSurfTemFtmByStaIDRequest parsePartialFrom(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return new StatSurfTemFtmByStaIDRequest(input, extensionRegistry);
-    }
-  };
-
-  public static com.google.protobuf.Parser<StatSurfTemFtmByStaIDRequest> parser() {
-    return PARSER;
-  }
-
-  @java.lang.Override
-  public com.google.protobuf.Parser<StatSurfTemFtmByStaIDRequest> getParserForType() {
-    return PARSER;
-  }
-
-  @java.lang.Override
-  public com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.StatSurfTemFtmByStaIDRequest getDefaultInstanceForType() {
-    return DEFAULT_INSTANCE;
-  }
 
 }
 

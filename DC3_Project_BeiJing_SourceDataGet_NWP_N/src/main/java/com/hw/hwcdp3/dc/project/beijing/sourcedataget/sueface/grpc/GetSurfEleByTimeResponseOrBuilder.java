@@ -4,34 +4,37 @@
 package com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc;
 
 public interface GetSurfEleByTimeResponseOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:surfaceDataSelect.GetSurfEleByTimeResponse)
-    com.google.protobuf.MessageOrBuilder {
+        // @@protoc_insertion_point(interface_extends:surfaceDataSelect.GetSurfEleByTimeResponse)
+        com.google.protobuf.MessageOrBuilder {
 
-  /**
-   * <code>int32 status = 1;</code>
-   */
-  int getStatus();
+    /**
+     * <code>int32 status = 1;</code>
+     */
+    int getStatus();
 
-  /**
-   * <code>string msg = 2;</code>
-   */
-  java.lang.String getMsg();
-  /**
-   * <code>string msg = 2;</code>
-   */
-  com.google.protobuf.ByteString
-      getMsgBytes();
+    /**
+     * <code>string msg = 2;</code>
+     */
+    java.lang.String getMsg();
 
-  /**
-   * <code>.surfaceDataSelect.RetArr2D data = 3;</code>
-   */
-  boolean hasData();
-  /**
-   * <code>.surfaceDataSelect.RetArr2D data = 3;</code>
-   */
-  com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.RetArr2D getData();
-  /**
-   * <code>.surfaceDataSelect.RetArr2D data = 3;</code>
-   */
-  com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.RetArr2DOrBuilder getDataOrBuilder();
+    /**
+     * <code>string msg = 2;</code>
+     */
+    com.google.protobuf.ByteString
+    getMsgBytes();
+
+    /**
+     * <code>.surfaceDataSelect.RetArr2D data = 3;</code>
+     */
+    boolean hasData();
+
+    /**
+     * <code>.surfaceDataSelect.RetArr2D data = 3;</code>
+     */
+    com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.RetArr2D getData();
+
+    /**
+     * <code>.surfaceDataSelect.RetArr2D data = 3;</code>
+     */
+    com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc.RetArr2DOrBuilder getDataOrBuilder();
 }

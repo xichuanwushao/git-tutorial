@@ -11,8 +11,7 @@ import java.util.List;
 @Controller
 public class BookController {
     @GetMapping("/books")
-    public ModelAndView books()
-    {
+    public ModelAndView books() {
         System.out.println(123);
         List<Book> books = new ArrayList<Book>();
         Book book1 = new Book();
@@ -26,7 +25,7 @@ public class BookController {
         books.add(book1);
         books.add(book2);
         ModelAndView mv = new ModelAndView();
-        mv.addObject("books",books);
+        mv.addObject("books", books);
         mv.setViewName("books");
         System.out.println(123);
         return mv;

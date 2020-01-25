@@ -4,56 +4,61 @@
 package com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc;
 
 public interface GetStationProByValidTimeRangeRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:surfaceDataSelect.GetStationProByValidTimeRangeRequest)
-    com.google.protobuf.MessageOrBuilder {
+        // @@protoc_insertion_point(interface_extends:surfaceDataSelect.GetStationProByValidTimeRangeRequest)
+        com.google.protobuf.MessageOrBuilder {
 
-  /**
-   * <code>string stdIds = 1;</code>
-   */
-  java.lang.String getStdIds();
-  /**
-   * <code>string stdIds = 1;</code>
-   */
-  com.google.protobuf.ByteString
-      getStdIdsBytes();
+    /**
+     * <code>string stdIds = 1;</code>
+     */
+    java.lang.String getStdIds();
 
-  /**
-   * <code>string maketimes = 2;</code>
-   */
-  java.lang.String getMaketimes();
-  /**
-   * <code>string maketimes = 2;</code>
-   */
-  com.google.protobuf.ByteString
-      getMaketimesBytes();
+    /**
+     * <code>string stdIds = 1;</code>
+     */
+    com.google.protobuf.ByteString
+    getStdIdsBytes();
 
-  /**
-   * <code>string startYbtimes = 3;</code>
-   */
-  java.lang.String getStartYbtimes();
-  /**
-   * <code>string startYbtimes = 3;</code>
-   */
-  com.google.protobuf.ByteString
-      getStartYbtimesBytes();
+    /**
+     * <code>string maketimes = 2;</code>
+     */
+    java.lang.String getMaketimes();
 
-  /**
-   * <code>string endYbtimes = 4;</code>
-   */
-  java.lang.String getEndYbtimes();
-  /**
-   * <code>string endYbtimes = 4;</code>
-   */
-  com.google.protobuf.ByteString
-      getEndYbtimesBytes();
+    /**
+     * <code>string maketimes = 2;</code>
+     */
+    com.google.protobuf.ByteString
+    getMaketimesBytes();
 
-  /**
-   * <code>string dataCode = 5;</code>
-   */
-  java.lang.String getDataCode();
-  /**
-   * <code>string dataCode = 5;</code>
-   */
-  com.google.protobuf.ByteString
-      getDataCodeBytes();
+    /**
+     * <code>string startYbtimes = 3;</code>
+     */
+    java.lang.String getStartYbtimes();
+
+    /**
+     * <code>string startYbtimes = 3;</code>
+     */
+    com.google.protobuf.ByteString
+    getStartYbtimesBytes();
+
+    /**
+     * <code>string endYbtimes = 4;</code>
+     */
+    java.lang.String getEndYbtimes();
+
+    /**
+     * <code>string endYbtimes = 4;</code>
+     */
+    com.google.protobuf.ByteString
+    getEndYbtimesBytes();
+
+    /**
+     * <code>string dataCode = 5;</code>
+     */
+    java.lang.String getDataCode();
+
+    /**
+     * <code>string dataCode = 5;</code>
+     */
+    com.google.protobuf.ByteString
+    getDataCodeBytes();
 }

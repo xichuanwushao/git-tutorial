@@ -1,149 +1,250 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-	<CollectZJstzdDataTo82  sleeptime="60"  host="10.224.47.203" port="7788">
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="平均气温" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="平均最高气温" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="平均最低气温" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="极端最高气温" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="极端最低气温" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="最低日平均气温" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="持续低温天数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="最高气温日数_35" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="持续最高气温日数_35" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="最低气温日数_-10" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="持续最低气温日数_-10" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
-	
-	
-	
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="累积降水量" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="最大日降水量" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="连续降水日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="最长连续降水日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="最长连续无降水日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="小雨日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="中雨日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="大雨日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="降水日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="降水量日数_10" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
-		<!--  <stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="蒸发量 " siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>-->
-		
-		
-		
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="地表平均温度" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="极端最高地温" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="极端最低地温" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="累积日照时数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="连阴日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="日均5cm地温" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="日均10cm地温" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="日均15cm地温" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="日均20cm地温" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="日均40cm地温" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
-	
-	
-	
-	
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="负积温" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="积温"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="≥0°C积温" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="积温"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="≥3°C积温" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="积温"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="≥5°C积温" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="积温"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="≥10°C积温" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="积温"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="≥15°C积温" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="积温"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="最高积温_20" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="积温"/>
-	
-	
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="平均湿度" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="湿度-风速"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="日最大相对湿度" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="湿度-风速"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="最小湿度" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="湿度-风速"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="2分钟风速" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="湿度-风速"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="极大风速" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="湿度-风速"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="最大风速" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="湿度-风速"/>
-	
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="闷热日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="持续闷热日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="重度闷热日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-<!--  	<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="极度闷热日数 " siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>-->	
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="严寒日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="雾日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-<!--  	<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="轻雾日数 " siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>-->	
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="霾日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="雾+霾日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="雾+霾+轻雾日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="烟幕日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="烟幕+霾日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="大风日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="风蚀日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="小风日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="浮尘日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="扬沙日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="沙尘暴日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="浮尘+扬沙+沙尘暴日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="尘卷风日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="龙卷风日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="雷暴日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="闪电日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="极光日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="冰雹日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="霜日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="结冰日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="积雪日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="飑日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="吹雪日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="雪暴日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="阵雪日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="雾凇日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="毛毛雨日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="雨凇日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="降雨日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="雨蚀日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="雨夹雪日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="降雪日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="冰针日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="米雪日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="冰粒日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="阵雨日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="阵雨雪日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="霰日数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-<!--  <stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="四季入季" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>-->		
-	<!--	<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="初终雪" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>-->	
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="初雷日" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="终雷日" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="初雹日" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-	<!-- <stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="初终霜" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/> -->
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="春季初沙尘日,春季终沙尘日" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="秋季初沙尘日,秋季终沙尘日" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="初暴雨日,终暴雨日" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="初高温日,终高温日" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="初暴雪日,终暴雪日" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="持续大雾天数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="持续霾天数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
-	
-	
-	
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="平均闷热指数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="指数计算"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="平均风寒指数" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="指数计算"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="制冷度日" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="指数计算"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="制暖度日" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="指数计算"/>
-		
-		
-		
-		
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="平均能见度" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="能见度"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="最大积雪深度" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="能见度"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="最大积雪深度" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="能见度"/>
-	
-	
-	
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="最大积雪深度" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="能见度"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="最大冻土深度" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="冻土深度"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="最大冻土深度" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="冻土深度"/>
-		
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="平均总云量" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="云量"/>
-		<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="平均低云量" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="云量"/>
-	
-	</CollectZJstzdDataTo82>
-	<programentrance>
-		<classname>cn.huawang.start.RedisToLocal</classname>
-		<methodname>start</methodname>
-	</programentrance>
+    <CollectZJstzdDataTo82 sleeptime="60" host="10.224.47.203" port="7788">
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="平均气温"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="平均最高气温"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="平均最低气温"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="极端最高气温"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="极端最低气温"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="最低日平均气温"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="持续低温天数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="最高气温日数_35"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="持续最高气温日数_35"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="最低气温日数_-10"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="持续最低气温日数_-10"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="气温"/>
+
+
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="累积降水量"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="最大日降水量"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="连续降水日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="最长连续降水日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="最长连续无降水日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="小雨日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="中雨日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="大雨日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="降水日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="降水量日数_10"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>
+        <!--  <stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="蒸发量 " siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="降水"/>-->
+
+
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="地表平均温度"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="极端最高地温"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="极端最低地温"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="累积日照时数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="连阴日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="日均5cm地温"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="日均10cm地温"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="日均15cm地温"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="日均20cm地温"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="日均40cm地温"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="地温-日照"/>
+
+
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="负积温" siteInfo="54511,54433"
+                      savepath="E:\气候统计\Data\climate" eletype="积温"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="≥0°C积温"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="积温"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="≥3°C积温"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="积温"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="≥5°C积温"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="积温"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="≥10°C积温"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="积温"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="≥15°C积温"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="积温"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="最高积温_20"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="积温"/>
+
+
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="平均湿度"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="湿度-风速"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="日最大相对湿度"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="湿度-风速"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="最小湿度"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="湿度-风速"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="2分钟风速"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="湿度-风速"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="极大风速"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="湿度-风速"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="最大风速"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="湿度-风速"/>
+
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="闷热日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="持续闷热日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="重度闷热日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <!--  	<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="极度闷热日数 " siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>-->
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="严寒日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="雾日数" siteInfo="54511,54433"
+                      savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <!--  	<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="轻雾日数 " siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>-->
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="霾日数" siteInfo="54511,54433"
+                      savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="雾+霾日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="雾+霾+轻雾日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="烟幕日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="烟幕+霾日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="大风日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="风蚀日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="小风日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="浮尘日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="扬沙日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="沙尘暴日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="浮尘+扬沙+沙尘暴日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="尘卷风日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="龙卷风日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="雷暴日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="闪电日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="极光日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="冰雹日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="霜日数" siteInfo="54511,54433"
+                      savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="结冰日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="积雪日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="飑日数" siteInfo="54511,54433"
+                      savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="吹雪日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="雪暴日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="阵雪日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="雾凇日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="毛毛雨日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="雨凇日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="降雨日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="雨蚀日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="雨夹雪日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="降雪日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="冰针日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="米雪日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="冰粒日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="阵雨日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="阵雨雪日数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="霰日数" siteInfo="54511,54433"
+                      savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <!--  <stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="四季入季" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>-->
+        <!--	<stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="初终雪" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>-->
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="初雷日" siteInfo="54511,54433"
+                      savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="终雷日" siteInfo="54511,54433"
+                      savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="初雹日" siteInfo="54511,54433"
+                      savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <!-- <stzdtraverse  startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00"  elename="初终霜" siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/> -->
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="春季初沙尘日,春季终沙尘日"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="秋季初沙尘日,秋季终沙尘日"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="初暴雨日,终暴雨日"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="初高温日,终高温日"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="初暴雪日,终暴雪日"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="持续大雾天数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="持续霾天数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="天气现象日数"/>
+
+
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="平均闷热指数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="指数计算"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="平均风寒指数"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="指数计算"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="制冷度日"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="指数计算"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="制暖度日"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="指数计算"/>
+
+
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="平均能见度"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="能见度"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="最大积雪深度"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="能见度"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="最大积雪深度"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="能见度"/>
+
+
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="最大积雪深度"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="能见度"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="最大冻土深度"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="冻土深度"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="最大冻土深度"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="冻土深度"/>
+
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="平均总云量"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="云量"/>
+        <stzdtraverse startTime="2019-01-01 00:00:00" endTime="2019-01-10 00:00:00" elename="平均低云量"
+                      siteInfo="54511,54433" savepath="E:\气候统计\Data\climate" eletype="云量"/>
+
+    </CollectZJstzdDataTo82>
+    <programentrance>
+        <classname>cn.huawang.start.RedisToLocal</classname>
+        <methodname>start</methodname>
+    </programentrance>
 </root>

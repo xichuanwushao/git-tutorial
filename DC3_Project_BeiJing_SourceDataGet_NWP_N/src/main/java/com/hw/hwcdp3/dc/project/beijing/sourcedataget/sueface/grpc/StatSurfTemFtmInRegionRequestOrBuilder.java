@@ -4,96 +4,105 @@
 package com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc;
 
 public interface StatSurfTemFtmInRegionRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:surfaceDataSelect.StatSurfTemFtmInRegionRequest)
-    com.google.protobuf.MessageOrBuilder {
+        // @@protoc_insertion_point(interface_extends:surfaceDataSelect.StatSurfTemFtmInRegionRequest)
+        com.google.protobuf.MessageOrBuilder {
 
-  /**
-   * <code>string elements = 1;</code>
-   */
-  java.lang.String getElements();
-  /**
-   * <code>string elements = 1;</code>
-   */
-  com.google.protobuf.ByteString
-      getElementsBytes();
+    /**
+     * <code>string elements = 1;</code>
+     */
+    java.lang.String getElements();
 
-  /**
-   * <code>string statEleValueRanges = 2;</code>
-   */
-  java.lang.String getStatEleValueRanges();
-  /**
-   * <code>string statEleValueRanges = 2;</code>
-   */
-  com.google.protobuf.ByteString
-      getStatEleValueRangesBytes();
+    /**
+     * <code>string elements = 1;</code>
+     */
+    com.google.protobuf.ByteString
+    getElementsBytes();
 
-  /**
-   * <code>string limitCnt = 3;</code>
-   */
-  java.lang.String getLimitCnt();
-  /**
-   * <code>string limitCnt = 3;</code>
-   */
-  com.google.protobuf.ByteString
-      getLimitCntBytes();
+    /**
+     * <code>string statEleValueRanges = 2;</code>
+     */
+    java.lang.String getStatEleValueRanges();
 
-  /**
-   * <code>string orderBy = 4;</code>
-   */
-  java.lang.String getOrderBy();
-  /**
-   * <code>string orderBy = 4;</code>
-   */
-  com.google.protobuf.ByteString
-      getOrderByBytes();
+    /**
+     * <code>string statEleValueRanges = 2;</code>
+     */
+    com.google.protobuf.ByteString
+    getStatEleValueRangesBytes();
 
-  /**
-   * <code>string timeRange = 5;</code>
-   */
-  java.lang.String getTimeRange();
-  /**
-   * <code>string timeRange = 5;</code>
-   */
-  com.google.protobuf.ByteString
-      getTimeRangeBytes();
+    /**
+     * <code>string limitCnt = 3;</code>
+     */
+    java.lang.String getLimitCnt();
 
-  /**
-   * <code>string staLevels = 6;</code>
-   */
-  java.lang.String getStaLevels();
-  /**
-   * <code>string staLevels = 6;</code>
-   */
-  com.google.protobuf.ByteString
-      getStaLevelsBytes();
+    /**
+     * <code>string limitCnt = 3;</code>
+     */
+    com.google.protobuf.ByteString
+    getLimitCntBytes();
 
-  /**
-   * <code>string adminCodes = 7;</code>
-   */
-  java.lang.String getAdminCodes();
-  /**
-   * <code>string adminCodes = 7;</code>
-   */
-  com.google.protobuf.ByteString
-      getAdminCodesBytes();
+    /**
+     * <code>string orderBy = 4;</code>
+     */
+    java.lang.String getOrderBy();
 
-  /**
-   * <code>string townCodes = 8;</code>
-   */
-  java.lang.String getTownCodes();
-  /**
-   * <code>string townCodes = 8;</code>
-   */
-  com.google.protobuf.ByteString
-      getTownCodesBytes();
+    /**
+     * <code>string orderBy = 4;</code>
+     */
+    com.google.protobuf.ByteString
+    getOrderByBytes();
 
-  /**
-   * <code>string dataCode = 9;</code>
-   */
-  java.lang.String getDataCode();
-  /**
-   * <code>string dataCode = 9;</code>
-   */
-  com.google.protobuf.ByteString
-      getDataCodeBytes();
+    /**
+     * <code>string timeRange = 5;</code>
+     */
+    java.lang.String getTimeRange();
+
+    /**
+     * <code>string timeRange = 5;</code>
+     */
+    com.google.protobuf.ByteString
+    getTimeRangeBytes();
+
+    /**
+     * <code>string staLevels = 6;</code>
+     */
+    java.lang.String getStaLevels();
+
+    /**
+     * <code>string staLevels = 6;</code>
+     */
+    com.google.protobuf.ByteString
+    getStaLevelsBytes();
+
+    /**
+     * <code>string adminCodes = 7;</code>
+     */
+    java.lang.String getAdminCodes();
+
+    /**
+     * <code>string adminCodes = 7;</code>
+     */
+    com.google.protobuf.ByteString
+    getAdminCodesBytes();
+
+    /**
+     * <code>string townCodes = 8;</code>
+     */
+    java.lang.String getTownCodes();
+
+    /**
+     * <code>string townCodes = 8;</code>
+     */
+    com.google.protobuf.ByteString
+    getTownCodesBytes();
+
+    /**
+     * <code>string dataCode = 9;</code>
+     */
+    java.lang.String getDataCode();
+
+    /**
+     * <code>string dataCode = 9;</code>
+     */
+    com.google.protobuf.ByteString
+    getDataCodeBytes();
 }

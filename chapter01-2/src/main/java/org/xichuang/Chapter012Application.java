@@ -11,24 +11,6 @@ public class Chapter012Application {
         System.out.println("ni da jun");
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
 }

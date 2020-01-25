@@ -4,156 +4,171 @@
 package com.hw.hwcdp3.dc.project.beijing.sourcedataget.sueface.grpc;
 
 public interface StatSurfEleInRectRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:surfaceDataSelect.StatSurfEleInRectRequest)
-    com.google.protobuf.MessageOrBuilder {
+        // @@protoc_insertion_point(interface_extends:surfaceDataSelect.StatSurfEleInRectRequest)
+        com.google.protobuf.MessageOrBuilder {
 
-  /**
-   * <code>string dataCode = 1;</code>
-   */
-  java.lang.String getDataCode();
-  /**
-   * <code>string dataCode = 1;</code>
-   */
-  com.google.protobuf.ByteString
-      getDataCodeBytes();
+    /**
+     * <code>string dataCode = 1;</code>
+     */
+    java.lang.String getDataCode();
 
-  /**
-   * <code>string elements = 2;</code>
-   */
-  java.lang.String getElements();
-  /**
-   * <code>string elements = 2;</code>
-   */
-  com.google.protobuf.ByteString
-      getElementsBytes();
+    /**
+     * <code>string dataCode = 1;</code>
+     */
+    com.google.protobuf.ByteString
+    getDataCodeBytes();
 
-  /**
-   * <code>string statEles = 3;</code>
-   */
-  java.lang.String getStatEles();
-  /**
-   * <code>string statEles = 3;</code>
-   */
-  com.google.protobuf.ByteString
-      getStatElesBytes();
+    /**
+     * <code>string elements = 2;</code>
+     */
+    java.lang.String getElements();
 
-  /**
-   * <code>string eleValueRanges = 4;</code>
-   */
-  java.lang.String getEleValueRanges();
-  /**
-   * <code>string eleValueRanges = 4;</code>
-   */
-  com.google.protobuf.ByteString
-      getEleValueRangesBytes();
+    /**
+     * <code>string elements = 2;</code>
+     */
+    com.google.protobuf.ByteString
+    getElementsBytes();
 
-  /**
-   * <code>string statEleValueRanges = 5;</code>
-   */
-  java.lang.String getStatEleValueRanges();
-  /**
-   * <code>string statEleValueRanges = 5;</code>
-   */
-  com.google.protobuf.ByteString
-      getStatEleValueRangesBytes();
+    /**
+     * <code>string statEles = 3;</code>
+     */
+    java.lang.String getStatEles();
 
-  /**
-   * <code>string limitCnt = 6;</code>
-   */
-  java.lang.String getLimitCnt();
-  /**
-   * <code>string limitCnt = 6;</code>
-   */
-  com.google.protobuf.ByteString
-      getLimitCntBytes();
+    /**
+     * <code>string statEles = 3;</code>
+     */
+    com.google.protobuf.ByteString
+    getStatElesBytes();
 
-  /**
-   * <code>string orderBy = 7;</code>
-   */
-  java.lang.String getOrderBy();
-  /**
-   * <code>string orderBy = 7;</code>
-   */
-  com.google.protobuf.ByteString
-      getOrderByBytes();
+    /**
+     * <code>string eleValueRanges = 4;</code>
+     */
+    java.lang.String getEleValueRanges();
 
-  /**
-   * <code>string timeRange = 8;</code>
-   */
-  java.lang.String getTimeRange();
-  /**
-   * <code>string timeRange = 8;</code>
-   */
-  com.google.protobuf.ByteString
-      getTimeRangeBytes();
+    /**
+     * <code>string eleValueRanges = 4;</code>
+     */
+    com.google.protobuf.ByteString
+    getEleValueRangesBytes();
 
-  /**
-   * <code>string minSeparate = 9;</code>
-   */
-  java.lang.String getMinSeparate();
-  /**
-   * <code>string minSeparate = 9;</code>
-   */
-  com.google.protobuf.ByteString
-      getMinSeparateBytes();
+    /**
+     * <code>string statEleValueRanges = 5;</code>
+     */
+    java.lang.String getStatEleValueRanges();
 
-  /**
-   * <code>string hourSeparate = 10;</code>
-   */
-  java.lang.String getHourSeparate();
-  /**
-   * <code>string hourSeparate = 10;</code>
-   */
-  com.google.protobuf.ByteString
-      getHourSeparateBytes();
+    /**
+     * <code>string statEleValueRanges = 5;</code>
+     */
+    com.google.protobuf.ByteString
+    getStatEleValueRangesBytes();
 
-  /**
-   * <code>string minLon = 11;</code>
-   */
-  java.lang.String getMinLon();
-  /**
-   * <code>string minLon = 11;</code>
-   */
-  com.google.protobuf.ByteString
-      getMinLonBytes();
+    /**
+     * <code>string limitCnt = 6;</code>
+     */
+    java.lang.String getLimitCnt();
 
-  /**
-   * <code>string maxLon = 12;</code>
-   */
-  java.lang.String getMaxLon();
-  /**
-   * <code>string maxLon = 12;</code>
-   */
-  com.google.protobuf.ByteString
-      getMaxLonBytes();
+    /**
+     * <code>string limitCnt = 6;</code>
+     */
+    com.google.protobuf.ByteString
+    getLimitCntBytes();
 
-  /**
-   * <code>string minLat = 13;</code>
-   */
-  java.lang.String getMinLat();
-  /**
-   * <code>string minLat = 13;</code>
-   */
-  com.google.protobuf.ByteString
-      getMinLatBytes();
+    /**
+     * <code>string orderBy = 7;</code>
+     */
+    java.lang.String getOrderBy();
 
-  /**
-   * <code>string maxLat = 14;</code>
-   */
-  java.lang.String getMaxLat();
-  /**
-   * <code>string maxLat = 14;</code>
-   */
-  com.google.protobuf.ByteString
-      getMaxLatBytes();
+    /**
+     * <code>string orderBy = 7;</code>
+     */
+    com.google.protobuf.ByteString
+    getOrderByBytes();
 
-  /**
-   * <code>string staLevels = 15;</code>
-   */
-  java.lang.String getStaLevels();
-  /**
-   * <code>string staLevels = 15;</code>
-   */
-  com.google.protobuf.ByteString
-      getStaLevelsBytes();
+    /**
+     * <code>string timeRange = 8;</code>
+     */
+    java.lang.String getTimeRange();
+
+    /**
+     * <code>string timeRange = 8;</code>
+     */
+    com.google.protobuf.ByteString
+    getTimeRangeBytes();
+
+    /**
+     * <code>string minSeparate = 9;</code>
+     */
+    java.lang.String getMinSeparate();
+
+    /**
+     * <code>string minSeparate = 9;</code>
+     */
+    com.google.protobuf.ByteString
+    getMinSeparateBytes();
+
+    /**
+     * <code>string hourSeparate = 10;</code>
+     */
+    java.lang.String getHourSeparate();
+
+    /**
+     * <code>string hourSeparate = 10;</code>
+     */
+    com.google.protobuf.ByteString
+    getHourSeparateBytes();
+
+    /**
+     * <code>string minLon = 11;</code>
+     */
+    java.lang.String getMinLon();
+
+    /**
+     * <code>string minLon = 11;</code>
+     */
+    com.google.protobuf.ByteString
+    getMinLonBytes();
+
+    /**
+     * <code>string maxLon = 12;</code>
+     */
+    java.lang.String getMaxLon();
+
+    /**
+     * <code>string maxLon = 12;</code>
+     */
+    com.google.protobuf.ByteString
+    getMaxLonBytes();
+
+    /**
+     * <code>string minLat = 13;</code>
+     */
+    java.lang.String getMinLat();
+
+    /**
+     * <code>string minLat = 13;</code>
+     */
+    com.google.protobuf.ByteString
+    getMinLatBytes();
+
+    /**
+     * <code>string maxLat = 14;</code>
+     */
+    java.lang.String getMaxLat();
+
+    /**
+     * <code>string maxLat = 14;</code>
+     */
+    com.google.protobuf.ByteString
+    getMaxLatBytes();
+
+    /**
+     * <code>string staLevels = 15;</code>
+     */
+    java.lang.String getStaLevels();
+
+    /**
+     * <code>string staLevels = 15;</code>
+     */
+    com.google.protobuf.ByteString
+    getStaLevelsBytes();
 }
