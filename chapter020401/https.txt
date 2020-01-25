@@ -1,0 +1,5 @@
+keytool -genkey -alias tomcathttps -keyalg RSA -keysize 2018 -keystore sang.p13 -validity 365
+
+http://localhost:8080/chapter020401/hello
+可跳转至
+https://localhost:8081/chapter020401/hello
