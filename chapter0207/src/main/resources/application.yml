@@ -1,0 +1,25 @@
+my:
+  name: 江南一点雨
+  address:  China
+  favorites:
+    - 足球
+    - 徒步
+    - Coding
+  maps: {k1 : v1,k2 : v2,k3 : v3}
+
+mylist:
+  users:
+    - name: 江南一点雨
+      address:  China
+      favorites:
+        - 足球
+        - 徒步
+        - Coding
+      maps: {k1 : v1,k2 : v2,k3 : v3}
+    - name: 江南一点雨
+      address:  China
+      favorites:
+        - 足球
+        - 徒步
+        - Coding
+      maps: {k1: v1,k2: v2,k3: v3}
