@@ -1,0 +1,17 @@
+Some problems were encountered while building the effective model for org.xichuan:chapter050102:jar:0.0.1-SNAPSHOT
+'dependencies.dependency.systemPath' for com.gbase.jdbc:gbase-connector-java:jar should not point at files within the project directory, ${project.basedir}/lib/gbase-connector-java-8.8.jar will be unresolvable by dependent projects @ line 41, column 25
+It is highly recommended to fix these problems because they threaten the stability of your build.
+For this reason, future Maven versions might no longer support building such malformed projects.
+
+不应指向项目目录中的文件，将无法被相关项目解析
+强烈建议修复这些问题，因为它们会威胁到构建的稳定性。
+由于这个原因，未来的Maven版本可能不再支持构建这种畸形的项目。
+
+使用本地的jar打包maven引发的问题。
+<dependency>
+            <groupId>com.gbase.jdbc</groupId>
+            <artifactId>gbase-connector-java</artifactId>
+            <scope>system</scope>
+            <version>8.8</version>
+            <systemPath>${project.basedir}/lib/gbase-connector-java-8.8.jar</systemPath>
+</dependency>
