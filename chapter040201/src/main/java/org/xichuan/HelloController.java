@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpSession;
-
+//http://localhost:8081/chapter040202/p1.png
 @RestController
 //http://localhost:8081/chapter02/hello
 public class HelloController {
