@@ -1,4 +1,4 @@
-package org.xichuan.chapter0503;
+package org.xichuan;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

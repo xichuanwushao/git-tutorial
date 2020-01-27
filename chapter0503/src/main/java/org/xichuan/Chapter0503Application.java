@@ -1,4 +1,4 @@
-package org.xichuan.chapter0503;
+package org.xichuan;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
