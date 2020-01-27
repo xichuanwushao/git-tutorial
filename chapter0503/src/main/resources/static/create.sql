@@ -9,4 +9,13 @@ create table `book`(
 
 create database `jpa` default character set utf8;
 创建数据库 不需要创建表
+Step 1: From your project repository, bring in the changes and test.
 
+git fetch origin
+git checkout -b feature-A origin/feature-A
+git merge master
+Step 2: Merge the changes and update on GitHub.
+
+git checkout master
+git merge --no-ff feature-A
+git push origin master
