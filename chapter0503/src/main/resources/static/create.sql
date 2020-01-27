@@ -8,4 +8,5 @@ create table `book`(
 ) engine =innodb default charset =utf8;
 
 create database `jpa` default character set utf8;
+创建数据库 不需要创建表
 
