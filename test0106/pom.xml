@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.4.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>org.xichuan</groupId>
+    <artifactId>test0106</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>test0106</name>
+    <description>springboot第三方依赖导入</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>huawang.Lang.driver</groupId>
+            <artifactId>HWCDP_Lang</artifactId>
+            <version>1.0.12</version>
+            <scope>system</scope>
+           <systemPath>${project.basedir}/../../IDEA_applibs/huawangMaven/HWCommons.Lang-1.0.12.1587.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.hw.hwcdp3.publiccode</groupId>
+            <artifactId>HWCDP3.PublicCode-Beta</artifactId>
+            <version>3.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/../../IDEA_applibs/huawangMaven/HWCDP3.PublicCode-Beta.jar</systemPath>
+        </dependency>
+
+
+
+        <dependency>
+            <groupId>jcifs</groupId>
+            <artifactId>local-jcifs</artifactId>
+            <version>1.3.18</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/../../IDEA_applibs/huawangMaven/jcifs-1.3.18.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-pool2</artifactId>
+            <version>2.7.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!--使单元测试不影响项目的编译 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip><!--跳过单元测试 -->
+                    <!--<testFailureIgnore>true</testFailureIgnore> --><!--这个网上很多的解决方式是这个,其实这个,其实这个配置后打包还是会编译单元测试类的,只是忽略编译单元测试类的错误. -->
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                    <compilerArguments>
+                        <extdirs>${project.build.directory}/../lib</extdirs>
+                    </compilerArguments>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <!-- 设置生成的最后jar包名称 -->
+                    <finalName>${project.artifactId}</finalName>
+                    <archive>
+                        <manifest>
+                            <addClasspath>false</addClasspath>
+                            <classpathPrefix></classpathPrefix>
+                            <!-- 设置主方法类名 -->
+                            <mainClass>
+                                org.xichuan.Test0106Application
+                            </mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>copy-lib-src-webapps</id>
+                        <phase>package</phase>
+                        <configuration>
+                            <tasks>
+                                <copy
+                                        todir="${project.build.directory}/../../../IDEA_applibs/sourcelib"
+                                        overwrite="true">
+                                    <fileset dir="${project.build.directory}">
+                                        <include name="${project.artifactId}.jar" />
+                                    </fileset>
+                                </copy>
+                            </tasks>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>copy-dependencies</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/../../../IDEA_applibs/Lib</outputDirectory>
+                            <overWriteReleases>false</overWriteReleases>
+                            <overWriteSnapshots>false</overWriteSnapshots>
+                            <overWriteIfNewer>true</overWriteIfNewer>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

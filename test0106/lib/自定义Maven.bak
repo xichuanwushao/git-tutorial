@@ -1,0 +1,159 @@
+ojdbc7.jar
+<dependency>
+    <groupId>huawang.oracle.driver</groupId>  
+    <artifactId>oracle-connector-java</artifactId>  
+    <version>12.1</version>  
+</dependency>
+mvn install:install-file -Dfile=I:\huawangMaven\ojdbc7.jar -DgroupId=huawang.ojdbc.driver -DartifactId=oracle-connector-Java -Dversion=7 -Dpackaging=jar
+
+HWCDP.PublicCode.1.1.9.18282.jar
+<dependency>
+    <groupId>huawang.PublicCode.driver</groupId>  
+    <artifactId>HWCDP_PublicCode</artifactId>  
+    <version>1.1.9</version>  
+</dependency>
+mvn install:install-file -Dfile=I:\huawangMaven\HWCDP.PublicCode.1.1.9.18282.jar -DgroupId=huawang.PublicCode.driver -DartifactId=HWCDP_PublicCode -Dversion=1.1.9 -Dpackaging=jar
+
+HWCommons.Lang-1.0.8.1398.jar
+<dependency>
+    <groupId>huawang.Lang.driver</groupId>  
+    <artifactId>HWCDP_Lang</artifactId>  
+    <version>1.0.8</version>  
+</dependency>
+mvn install:install-file -Dfile=I:\huawangMaven\HWCommons.Lang-1.0.8.1398.jar -DgroupId=huawang.Lang.driver -DartifactId=HWCDP_Lang -Dversion=1.0.8 -Dpackaging=jar
+
+HWCommons.Lang-1.0.12.1587.jar
+<dependency>
+    <groupId>huawang.Lang.driver</groupId>  
+    <artifactId>HWCDP_Lang</artifactId>  
+    <version>1.0.12</version>  
+</dependency>
+mvn install:install-file -Dfile=I:\huawangMaven\HWCommons.Lang-1.0.8.1398.jar -DgroupId=huawang.Lang.driver -DartifactId=HWCDP_Lang -Dversion=1.0.8 -Dpackaging=jar
+
+HWWeather.NWP-1.1.17.1423.jar
+<dependency>
+    <groupId>huawang.NWP.driver</groupId>  
+    <artifactId>HWWeather_NWP</artifactId>  
+    <version>1.1.17</version>  
+</dependency>
+mvn install:install-file -Dfile=I:\huawangMaven\HWWeather.NWP-1.1.17.1423.jar -DgroupId=huawang.NWP.driver -DartifactId=HWWeather_NWP -Dversion=1.1.17 -Dpackaging=jar
+
+HWCommons.DB-1.0.0.1311.jar
+<dependency>
+    <groupId>huawang.DB.driver</groupId>  
+    <artifactId>HWCommons_DB</artifactId>  
+    <version>1.0.0</version>  
+</dependency>
+mvn install:install-file -Dfile=I:\huawangMaven\HWCommons.DB-1.0.0.1311.jar -DgroupId=huawang.DB.driver -DartifactId=HWCommons_DB -Dversion=1.0.0 -Dpackaging=jar
+
+
+ojdbc6.jar
+<dependency>
+    <groupId>huawang.ojdbc.driver</groupId>  
+    <artifactId>oracle-connector-Java</artifactId>  
+    <version>6</version>  
+</dependency>
+mvn install:install-file -Dfile=I:\huawangMaven\ojdbc7.jar -DgroupId=huawang.ojdbc.driver -DartifactId=oracle-connector-Java -Dversion=6 -Dpackaging=jar
+
+
+
+HWCDP3.PublicCode-Beta.jar
+<dependency>
+    <groupId>com.hw.hwcdp3.publiccode</groupId>  
+    <artifactId>HWCDP3.PublicCode-Beta</artifactId>  
+    <version>3.0</version>  
+</dependency>
+mvn install:install-file -Dfile=I:\huawangMaven\HWCDP3.PublicCode-Beta.jar -DgroupId=com.hw.hwcdp3.publiccode -DartifactId=HWCDP3.PublicCode-Beta -Dversion=3.0 -Dpackaging=jar
+
+
+
+
+HWCDP3.Weather-Beta.jar
+<dependency>
+    <groupId>com.hw.hwcdp3.weather</groupId>  
+    <artifactId>HWCDP3.Weather-Beta</artifactId>  
+    <version>3.0</version>  
+</dependency>
+mvn install:install-file -Dfile=I:\huawangMaven\HWCDP3.Weather-Beta.jar -DgroupId=com.hw.hwcdp3.weather -DartifactId=HWCDP3.Weather-Beta -Dversion=3.0 -Dpackaging=jar
+
+
+
+
+gbase-connector-java-8.8.jar
+<dependency>
+    <groupId>gbase</groupId>  
+    <artifactId>connector-java</artifactId>  
+    <version>8.8</version>  
+</dependency>
+mvn install:install-file -Dfile=I:\huawangMaven\gbase-connector-java-8.8.jar -DgroupId=gbase -DartifactId=connector-java -Dversion=8.8 -Dpackaging=jar
+
+
+music-grpc-client-20190906.jar
+<dependency>
+    <groupId>music</groupId>  
+    <artifactId>grpc-client-20190906</artifactId>  
+    <version>1.0</version>  
+</dependency>
+mvn install:install-file -Dfile=I:\huawangMaven\music-grpc-client-20190906.jar -DgroupId=music -DartifactId=grpc-client-20190906 -Dversion=1.0 -Dpackaging=jar
+
+
+HWWeather.NWP-1.1.51.1667.jar
+<dependency>
+    <groupId>huawang.NWP.driver</groupId>  
+    <artifactId>HWWeather_NWP</artifactId>  
+    <version>1.1.51</version>  
+</dependency>
+mvn install:install-file -Dfile=I:\huawangMaven\HWWeather.NWP-1.1.51.1667.jar -DgroupId=huawang.NWP.driver -DartifactId=HWWeather_NWP -Dversion=1.1.51 -Dpackaging=jar
+
+
+
+HWCDP3.Grpc-Beta.jar
+<dependency>
+    <groupId>HWCDP3</groupId>  
+    <artifactId>Grpc-Beta</artifactId>  
+    <version>1.0</version>  
+</dependency>
+mvn install:install-file -Dfile=I:\huawangMaven\HWCDP3.Grpc-Beta.jar -DgroupId=HWCDP3 -DartifactId=Grpc-Beta -Dversion=1.0 -Dpackaging=jar
+
+HWHadoop.Cassandra-Beta.jar
+<dependency>
+    <groupId>HWHadoop</groupId>  
+    <artifactId>Cassandra-Beta</artifactId>  
+    <version>1.0</version>  
+</dependency>
+mvn install:install-file -Dfile=I:\huawangMaven\HWHadoop.Cassandra-Beta.jar -DgroupId=HWHadoop -DartifactId=Cassandra-Beta -Dversion=1.0 -Dpackaging=jar
+
+HWCDP3.PureLog-Beta.jar
+<dependency>
+    <groupId>HWCDP3</groupId>  
+    <artifactId>PureLog-Beta</artifactId>  
+    <version>1.0</version>  
+</dependency>
+mvn install:install-file -Dfile=I:\huawangMaven\HWCDP3.PureLog-Beta.jar -DgroupId=HWCDP3 -DartifactId=PureLog-Beta -Dversion=1.0 -Dpackaging=jar
+
+jcifs-1.3.18.jar
+<dependency>
+    <groupId>jcifs</groupId>  
+    <artifactId>local-jcifs</artifactId>  
+    <version>1.3.18</version>  
+</dependency>
+mvn install:install-file -Dfile=I:\huawangMaven\jcifs-1.3.18.jar -DgroupId=jcifs -DartifactId=local-jcifs -Dversion=1.3.18 -Dpackaging=jar
+
+
+cassandra-driver-core-3.3.2.jar
+<dependency>
+    <groupId>cassandra</groupId>  
+    <artifactId>local-driver-core</artifactId>  
+    <version>3.3.2</version>  
+</dependency>
+mvn install:install-file -Dfile=I:\huawangMaven\cassandra-driver-core-3.3.2.jar -DgroupId=cassandra -DartifactId=local-driver-core -Dversion=3.3.2 -Dpackaging=jar
+
+guava-21.0.jar
+<dependency>
+    <groupId>HWCDP3</groupId>  
+    <artifactId>local-guava</artifactId>  
+    <version>21.0</version>  
+</dependency>
+mvn install:install-file -Dfile=I:\huawangMaven\guava-21.0.jar -DgroupId=HWCDP3 -DartifactId=local-guava -Dversion=21.0 -Dpackaging=jar
+
+
