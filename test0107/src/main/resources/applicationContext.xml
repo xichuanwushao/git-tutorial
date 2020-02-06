@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean name="student" class="org.xichuan.entity.Student">
+        <property name="name" value="小黄"/>
+        <property name="age" value="19"/>
+        <property name="likeNums" >
+            <list >
+                <value>1.23</value>
+                <value>2.33</value>
+                <value>3.23</value>
+                <value>4.21</value>
+                <value>5.23</value>
+            </list>
+        </property>
+        <property name="maps" >
+            <map >
+                <entry key="address1" value="China of guanhzhou"/>
+                <entry key ="address2"  value="China of guizhou"/>
+            </map>
+        </property>
+    </bean>
+    <bean name="student2" class="org.xichuan.entity.Student">
+        <property name="name" value="小黄"/>
+        <property name="age" value="19"/>
+    </bean>
+    <bean id = "banji" class = "org.xichuan.entity.Grade">
+        <property name="students" >
+            <list>
+                <ref bean="student"></ref>
+                <ref bean="student2"></ref>
+            </list>
+        </property>
+
+    </bean>
+
+</beans>
