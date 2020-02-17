@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.mirson.grpc.lib";
+option java_outer_classname = "StockServiceProto";
+
+// The stock service definition.
+service StockService {
+    // get stock price by name 定义一个接口GetStockPrice ， 用于查询股票价格。
+    rpc GetStockPrice (StockServiceRequest) returns (StockServiceReply) {
+    }
+}
+
+// The request message  里面定义请求参数。
+message StockServiceRequest {
+    string name = 1;
+}
+
+// The response message 里面定义返回数据属性。
+message StockServiceReply {
+    string message = 1;
+}
+
