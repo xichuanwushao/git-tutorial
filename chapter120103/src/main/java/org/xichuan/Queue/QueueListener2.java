@@ -5,7 +5,7 @@ import javax.jms.Message;
 import javax.jms.MessageListener;
 import javax.jms.TextMessage;
 
-public class QueueListener implements MessageListener {
+public class QueueListener2 implements MessageListener {
 
     @Override
     public void onMessage(Message message) {
@@ -13,7 +13,7 @@ public class QueueListener implements MessageListener {
             try {
                 TextMessage txtMsg = (TextMessage) message;
                 String messageStr = txtMsg.getText();
-                System.out.println("队列1 监听器接收到文本消息：" + messageStr);
+                System.out.println("队列2 监听器接收到文本消息：" + messageStr);
             } catch (JMSException e) {
                 e.printStackTrace();
             }
